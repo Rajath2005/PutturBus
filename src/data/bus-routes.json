@@ -1,0 +1,4578 @@
+[
+  {
+    "id": 1,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "5:35"
+  },
+  {
+    "id": 2,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Uppinangady, Kadaba",
+    "type": "Ordinary",
+    "time": "6:00"
+  },
+  {
+    "id": 3,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "6:00"
+  },
+  {
+    "id": 4,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "6:00"
+  },
+  {
+    "id": 5,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "6:20"
+  },
+  {
+    "id": 6,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "6:40"
+  },
+  {
+    "id": 7,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "6:10"
+  },
+  {
+    "id": 8,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "6:50"
+  },
+  {
+    "id": 9,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "6:15"
+  },
+  {
+    "id": 10,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:00"
+  },
+  {
+    "id": 11,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "6:15"
+  },
+  {
+    "id": 12,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Non stop",
+    "time": "7:05"
+  },
+  {
+    "id": 13,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:10"
+  },
+  {
+    "id": 14,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "6:15"
+  },
+  {
+    "id": 15,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:20"
+  },
+  {
+    "id": 16,
+    "from": "Puttur",
+    "to": "Balugodu",
+    "via": "Kaniyur, Panja",
+    "type": "Ordinary",
+    "time": "6:30"
+  },
+  {
+    "id": 17,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road, Shamburu",
+    "type": "Limited stop",
+    "time": "7:20"
+  },
+  {
+    "id": 18,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "6:30"
+  },
+  {
+    "id": 19,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:25"
+  },
+  {
+    "id": 20,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "6:40"
+  },
+  {
+    "id": 21,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "6:40"
+  },
+  {
+    "id": 22,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "6:45"
+  },
+  {
+    "id": 23,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "6:30"
+  },
+  {
+    "id": 24,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "6:45"
+  },
+  {
+    "id": 25,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Savanuru",
+    "type": "Ordinary",
+    "time": "6:45"
+  },
+  {
+    "id": 26,
+    "from": "Puttur",
+    "to": "Panaji",
+    "via": "Mangalore, Kumta, Ankola, Karwara",
+    "type": "Express",
+    "time": "6:45"
+  },
+  {
+    "id": 27,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "6:45"
+  },
+  {
+    "id": 28,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 29,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 30,
+    "from": "Puttur",
+    "to": "Kodimara",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 31,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Kotyadi, Adur, Mandekolu",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 32,
+    "from": "Puttur",
+    "to": "Manjeshwara",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 33,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Bellare, Chokkadi",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 34,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Kaniyur, Panja",
+    "type": "Ordinary",
+    "time": "7:05"
+  },
+  {
+    "id": 35,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "7:00"
+  },
+  {
+    "id": 36,
+    "from": "Puttur",
+    "to": "Shishila",
+    "via": "Uppinangady, Nelyadi",
+    "type": "Ordinary",
+    "time": "7:05"
+  },
+  {
+    "id": 37,
+    "from": "Puttur",
+    "to": "Alike",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "6:50"
+  },
+  {
+    "id": 38,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "7:10"
+  },
+  {
+    "id": 39,
+    "from": "Puttur",
+    "to": "Uppala",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 40,
+    "from": "Puttur",
+    "to": "Uppalige",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 41,
+    "from": "Puttur",
+    "to": "Kaniyaru",
+    "via": "Munduru, Thingalady",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 42,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Uppinangady, Kadaba",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 43,
+    "from": "Puttur",
+    "to": "Kodapadavu",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 44,
+    "from": "Puttur",
+    "to": "Nanila",
+    "via": "Sarve",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 45,
+    "from": "Puttur",
+    "to": "Kalpane",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 46,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri,Mysuru",
+    "type": "Express",
+    "time": "7:15"
+  },
+  {
+    "id": 47,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "7:15"
+  },
+  {
+    "id": 48,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 49,
+    "from": "Puttur",
+    "to": "Padyana",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "7:20"
+  },
+  {
+    "id": 50,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "7:25"
+  },
+  {
+    "id": 52,
+    "from": "Puttur",
+    "to": "Kodippady",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "7:25"
+  },
+  {
+    "id": 53,
+    "from": "Puttur",
+    "to": "Nuliyalu",
+    "via": "Renja, Thambuthadka",
+    "type": "Ordinary",
+    "time": "7:25"
+  },
+  {
+    "id": 54,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "7:25"
+  },
+  {
+    "id": 55,
+    "from": "Puttur",
+    "to": "Anadka",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 56,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 57,
+    "from": "Puttur",
+    "to": "Veeramangala",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 58,
+    "from": "Puttur",
+    "to": "Kallugudde",
+    "via": "Uppinangady, Ichamapady",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 59,
+    "from": "Puttur",
+    "to": "Guttigaru",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 60,
+    "from": "Puttur",
+    "to": "Derla",
+    "via": "Kumbra",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 61,
+    "from": "Puttur",
+    "to": "Darbethadka",
+    "via": "Uppalige",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 62,
+    "from": "Puttur",
+    "to": "Thingalady",
+    "via": "Munduru",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 63,
+    "from": "Puttur",
+    "to": "Hubli",
+    "via": "Kumta, shirasi",
+    "type": "Express",
+    "time": "7:30"
+  },
+  {
+    "id": 64,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 65,
+    "from": "Puttur",
+    "to": "Barimaru",
+    "via": "Mani",
+    "type": "Ordinary",
+    "time": "7:30"
+  },
+  {
+    "id": 66,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:35"
+  },
+  {
+    "id": 67,
+    "from": "Puttur",
+    "to": "Edamangala",
+    "via": "Maduv, bellare, Kallembi",
+    "type": "Ordinary",
+    "time": "7:40"
+  },
+  {
+    "id": 68,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:40"
+  },
+  {
+    "id": 69,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Savanuru",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 70,
+    "from": "Puttur",
+    "to": "Bellippady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 71,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 72,
+    "from": "Puttur",
+    "to": "Galimukha",
+    "via": "Kav, Ishwaramangala, Karnur",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 73,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyur, Panja",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 74,
+    "from": "Puttur",
+    "to": "Kuriya",
+    "via": "NRCC",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 75,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "7:45"
+  },
+  {
+    "id": 76,
+    "from": "Puttur",
+    "to": "Gummatagadde",
+    "via": "Devasya",
+    "type": "Limited stop",
+    "time": "7:30"
+  },
+  {
+    "id": 77,
+    "from": "Puttur",
+    "to": "Sullyapadavu",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "7:45"
+  },
+  {
+    "id": 78,
+    "from": "Puttur",
+    "to": "Nettar",
+    "via": "Maduvu",
+    "type": "Ordinary",
+    "time": "7:50"
+  },
+  {
+    "id": 79,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:52"
+  },
+  {
+    "id": 80,
+    "from": "Puttur",
+    "to": "Darbethadka",
+    "via": "Kumbra",
+    "type": "Ordinary",
+    "time": "7:55"
+  },
+  {
+    "id": 81,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "8:00"
+  },
+  {
+    "id": 82,
+    "from": "Puttur",
+    "to": "Surya",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "8:00"
+  },
+  {
+    "id": 83,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Uppinangady, Kadaba",
+    "type": "Ordinary",
+    "time": "8:00"
+  },
+  {
+    "id": 84,
+    "from": "Puttur",
+    "to": "Kedila",
+    "via": "Nagara, Mura",
+    "type": "Ordinary",
+    "time": "8:00"
+  },
+  {
+    "id": 85,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "8:00"
+  },
+  {
+    "id": 86,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:00"
+  },
+  {
+    "id": 87,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "8:00"
+  },
+  {
+    "id": 88,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:07"
+  },
+  {
+    "id": 89,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "8:15"
+  },
+  {
+    "id": 90,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "8:15"
+  },
+  {
+    "id": 91,
+    "from": "Puttur",
+    "to": "Shanthigodu",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "8:15"
+  },
+  {
+    "id": 92,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Ordinary",
+    "time": "8:15"
+  },
+  {
+    "id": 93,
+    "from": "Puttur",
+    "to": "Kalpane",
+    "via": "Perlampady",
+    "type": "Ordinary",
+    "time": "8:15"
+  },
+  {
+    "id": 94,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "8:15"
+  },
+  {
+    "id": 95,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "Sulya",
+    "type": "Express",
+    "time": "8:15"
+  },
+  {
+    "id": 96,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "8:15"
+  },
+  {
+    "id": 97,
+    "from": "Puttur",
+    "to": "Kumaramangala",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "8:20"
+  },
+  {
+    "id": 98,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "8:20"
+  },
+  {
+    "id": 99,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:20"
+  },
+  {
+    "id": 100,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "8:25"
+  },
+  {
+    "id": 101,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:25"
+  },
+  {
+    "id": 102,
+    "from": "Puttur",
+    "to": "Padyana",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "8:30"
+  },
+  {
+    "id": 104,
+    "from": "Puttur",
+    "to": "Thingalady",
+    "via": "BHAKTHAKODI,RENJALADY,KOODURASTE",
+    "type": "Ordinary",
+    "time": "8:30"
+  },
+  {
+    "id": 105,
+    "from": "Puttur",
+    "to": "Panja",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "8:30"
+  },
+  {
+    "id": 106,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:30"
+  },
+  {
+    "id": 107,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "8:10"
+  },
+  {
+    "id": 108,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Bandaru",
+    "type": "Ordinary",
+    "time": "8:35"
+  },
+  {
+    "id": 109,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:35"
+  },
+  {
+    "id": 110,
+    "from": "Puttur",
+    "to": "Dolpady",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "8:40"
+  },
+  {
+    "id": 111,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "8:40"
+  },
+  {
+    "id": 112,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:40"
+  },
+  {
+    "id": 113,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "8:45"
+  },
+  {
+    "id": 114,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "8:45"
+  },
+  {
+    "id": 115,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "8:45"
+  },
+  {
+    "id": 116,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:20"
+  },
+  {
+    "id": 117,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "8:45"
+  },
+  {
+    "id": 118,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "8:50"
+  },
+  {
+    "id": 119,
+    "from": "Puttur",
+    "to": "Jidekallu",
+    "via": "APMC",
+    "type": "Ordinary",
+    "time": "8:50"
+  },
+  {
+    "id": 120,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:50"
+  },
+  {
+    "id": 121,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "8:30"
+  },
+  {
+    "id": 122,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "9:00"
+  },
+  {
+    "id": 123,
+    "from": "Puttur",
+    "to": "Vadya",
+    "via": "Renja",
+    "type": "Ordinary",
+    "time": "9:00"
+  },
+  {
+    "id": 124,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "9:00"
+  },
+  {
+    "id": 125,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:00"
+  },
+  {
+    "id": 126,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "9:00"
+  },
+  {
+    "id": 127,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:03"
+  },
+  {
+    "id": 128,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "9:05"
+  },
+  {
+    "id": 129,
+    "from": "Puttur",
+    "to": "Alike",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "9:05"
+  },
+  {
+    "id": 130,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:06"
+  },
+  {
+    "id": 131,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "9:10"
+  },
+  {
+    "id": 132,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:10"
+  },
+  {
+    "id": 133,
+    "from": "Puttur",
+    "to": "Vittla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "10:00"
+  },
+  {
+    "id": 134,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "9:15"
+  },
+  {
+    "id": 135,
+    "from": "Puttur",
+    "to": "Veeramangala",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "9:15"
+  },
+  {
+    "id": 136,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:15"
+  },
+  {
+    "id": 137,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "9:15"
+  },
+  {
+    "id": 138,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Savanur, Bellare",
+    "type": "Ordinary",
+    "time": "9:20"
+  },
+  {
+    "id": 139,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "9:20"
+  },
+  {
+    "id": 140,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:20"
+  },
+  {
+    "id": 141,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:25"
+  },
+  {
+    "id": 142,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "9:30"
+  },
+  {
+    "id": 143,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "9:30"
+  },
+  {
+    "id": 144,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "9:25"
+  },
+  {
+    "id": 145,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Sullia, Guthigaru",
+    "type": "Ordinary",
+    "time": "9:30"
+  },
+  {
+    "id": 146,
+    "from": "Puttur",
+    "to": "Kalmadka",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "9:30"
+  },
+  {
+    "id": 147,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "9:30"
+  },
+  {
+    "id": 148,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:30"
+  },
+  {
+    "id": 149,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "9:30"
+  },
+  {
+    "id": 150,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:35"
+  },
+  {
+    "id": 151,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "9:40"
+  },
+  {
+    "id": 152,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:40"
+  },
+  {
+    "id": 153,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "9:40"
+  },
+  {
+    "id": 154,
+    "from": "Puttur",
+    "to": "Uppala",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "9:45"
+  },
+  {
+    "id": 156,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "9:45"
+  },
+  {
+    "id": 157,
+    "from": "Puttur",
+    "to": "Aduru",
+    "via": "Kav, Ishwaramanagala",
+    "type": "Ordinary",
+    "time": "9:45"
+  },
+  {
+    "id": 158,
+    "from": "Puttur",
+    "to": "Balugodu",
+    "via": "Kaniyuru, Panja, Harihara",
+    "type": "Ordinary",
+    "time": "9:45"
+  },
+  {
+    "id": 159,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:45"
+  },
+  {
+    "id": 160,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "9:50"
+  },
+  {
+    "id": 161,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri,Mysuru",
+    "type": "Volvo",
+    "time": "9:50"
+  },
+  {
+    "id": 162,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:50"
+  },
+  {
+    "id": 163,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "9:50"
+  },
+  {
+    "id": 164,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:55"
+  },
+  {
+    "id": 165,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "9:57"
+  },
+  {
+    "id": 166,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "10:00"
+  },
+  {
+    "id": 167,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "10:00"
+  },
+  {
+    "id": 168,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "10:00"
+  },
+  {
+    "id": 169,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:00"
+  },
+  {
+    "id": 170,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "10:00"
+  },
+  {
+    "id": 171,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:03"
+  },
+  {
+    "id": 172,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:05"
+  },
+  {
+    "id": 173,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:10"
+  },
+  {
+    "id": 174,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:10"
+  },
+  {
+    "id": 175,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "10:10"
+  },
+  {
+    "id": 176,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "10:15"
+  },
+  {
+    "id": 177,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "10:15"
+  },
+  {
+    "id": 178,
+    "from": "Puttur",
+    "to": "Delampady",
+    "via": "Kav, Ishwaramanagala",
+    "type": "Ordinary",
+    "time": "10:15"
+  },
+  {
+    "id": 179,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:15"
+  },
+  {
+    "id": 180,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "10:15"
+  },
+  {
+    "id": 181,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "10:00"
+  },
+  {
+    "id": 182,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:15"
+  },
+  {
+    "id": 183,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "10:20"
+  },
+  {
+    "id": 184,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:20"
+  },
+  {
+    "id": 185,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "10:20"
+  },
+  {
+    "id": 186,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:25"
+  },
+  {
+    "id": 187,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "10:50"
+  },
+  {
+    "id": 188,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "10:30"
+  },
+  {
+    "id": 189,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "10:30"
+  },
+  {
+    "id": 190,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "10:30"
+  },
+  {
+    "id": 191,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:30"
+  },
+  {
+    "id": 192,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "10:30"
+  },
+  {
+    "id": 193,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "10:30"
+  },
+  {
+    "id": 194,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:32"
+  },
+  {
+    "id": 195,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:35"
+  },
+  {
+    "id": 196,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:40"
+  },
+  {
+    "id": 197,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "10:42"
+  },
+  {
+    "id": 198,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "10:45"
+  },
+  {
+    "id": 199,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Ordinary",
+    "time": "10:45"
+  },
+  {
+    "id": 200,
+    "from": "Puttur",
+    "to": "Shibaje",
+    "via": "Uppinangady, Nelyadi",
+    "type": "Ordinary",
+    "time": "10:45"
+  },
+  {
+    "id": 201,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "10:45"
+  },
+  {
+    "id": 202,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "10:45"
+  },
+  {
+    "id": 203,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:45"
+  },
+  {
+    "id": 204,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "10:45"
+  },
+  {
+    "id": 205,
+    "from": "Puttur",
+    "to": "Madikeri",
+    "via": "Sulya",
+    "type": "Express",
+    "time": "10:45"
+  },
+  {
+    "id": 206,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:47"
+  },
+  {
+    "id": 208,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:50"
+  },
+  {
+    "id": 209,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "10:55"
+  },
+  {
+    "id": 210,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:50"
+  },
+  {
+    "id": 211,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "10:52"
+  },
+  {
+    "id": 212,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "10:55"
+  },
+  {
+    "id": 213,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Savanuru",
+    "type": "Ordinary",
+    "time": "11:00"
+  },
+  {
+    "id": 214,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "11:00"
+  },
+  {
+    "id": 215,
+    "from": "Puttur",
+    "to": "Chamarajanagara",
+    "via": "Madikeri,Mysuru",
+    "type": "Express",
+    "time": "11:00"
+  },
+  {
+    "id": 216,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "11:00"
+  },
+  {
+    "id": 217,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "11:00"
+  },
+  {
+    "id": 218,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:02"
+  },
+  {
+    "id": 219,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "11:10"
+  },
+  {
+    "id": 220,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "11:10"
+  },
+  {
+    "id": 221,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:10"
+  },
+  {
+    "id": 222,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "11:10"
+  },
+  {
+    "id": 223,
+    "from": "Puttur",
+    "to": "Kanchana",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "11:15"
+  },
+  {
+    "id": 224,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "11:15"
+  },
+  {
+    "id": 225,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "11:15"
+  },
+  {
+    "id": 226,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kav, Ishwaramanagala",
+    "type": "Ordinary",
+    "time": "11:15"
+  },
+  {
+    "id": 227,
+    "from": "Puttur",
+    "to": "Panja",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "11:15"
+  },
+  {
+    "id": 228,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "11:15"
+  },
+  {
+    "id": 229,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "11:15"
+  },
+  {
+    "id": 230,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "11:15"
+  },
+  {
+    "id": 231,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:15"
+  },
+  {
+    "id": 232,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "11:20"
+  },
+  {
+    "id": 233,
+    "from": "Puttur",
+    "to": "Malla",
+    "via": "Vitla,Badiyadka",
+    "type": "Express",
+    "time": "11:20"
+  },
+  {
+    "id": 234,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:20"
+  },
+  {
+    "id": 235,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "11:20"
+  },
+  {
+    "id": 236,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Ordinary",
+    "time": "11:25"
+  },
+  {
+    "id": 237,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "11:30"
+  },
+  {
+    "id": 238,
+    "from": "Puttur",
+    "to": "Beedigudde",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "11:30"
+  },
+  {
+    "id": 239,
+    "from": "Puttur",
+    "to": "Manjeshwara",
+    "via": "Vitla,Kanyana",
+    "type": "Ordinary",
+    "time": "11:30"
+  },
+  {
+    "id": 240,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "11:30"
+  },
+  {
+    "id": 241,
+    "from": "Puttur",
+    "to": "Gokarna",
+    "via": "Mangalore, Kumta",
+    "type": "Express",
+    "time": "11:30"
+  },
+  {
+    "id": 242,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:30"
+  },
+  {
+    "id": 243,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "11:30"
+  },
+  {
+    "id": 244,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:37"
+  },
+  {
+    "id": 245,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "11:40"
+  },
+  {
+    "id": 246,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Belthangady",
+    "type": "Express",
+    "time": "11:40"
+  },
+  {
+    "id": 247,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "11:40"
+  },
+  {
+    "id": 248,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "11:40"
+  },
+  {
+    "id": 249,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Kav, Ishwaramanagala",
+    "type": "Ordinary",
+    "time": "11:45"
+  },
+  {
+    "id": 250,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri,Mysuru",
+    "type": "Volvo",
+    "time": "11:45"
+  },
+  {
+    "id": 251,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "11:45"
+  },
+  {
+    "id": 252,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:45"
+  },
+  {
+    "id": 253,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "11:50"
+  },
+  {
+    "id": 254,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "11:50"
+  },
+  {
+    "id": 255,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "11:55"
+  },
+  {
+    "id": 256,
+    "from": "Puttur",
+    "to": "BC Road",
+    "via": "Mani",
+    "type": "Ordinary",
+    "time": "11:55"
+  },
+  {
+    "id": 257,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "11:45"
+  },
+  {
+    "id": 258,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "12:00"
+  },
+  {
+    "id": 260,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Kaniyuru, Panja",
+    "type": "Express",
+    "time": "12:00"
+  },
+  {
+    "id": 261,
+    "from": "Puttur",
+    "to": "Kalpane",
+    "via": "Perlampady, Pambaru",
+    "type": "Ordinary",
+    "time": "12:00"
+  },
+  {
+    "id": 262,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "12:00"
+  },
+  {
+    "id": 263,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "12:00"
+  },
+  {
+    "id": 264,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:00"
+  },
+  {
+    "id": 265,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "12:00"
+  },
+  {
+    "id": 266,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "12:05"
+  },
+  {
+    "id": 267,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:07"
+  },
+  {
+    "id": 268,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "12:10"
+  },
+  {
+    "id": 269,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "12:15"
+  },
+  {
+    "id": 270,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "",
+    "type": "Ordinary",
+    "time": "11:00"
+  },
+  {
+    "id": 271,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "12:30"
+  },
+  {
+    "id": 272,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:15"
+  },
+  {
+    "id": 273,
+    "from": "Puttur",
+    "to": "Haleneranki",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "12:20"
+  },
+  {
+    "id": 274,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:20"
+  },
+  {
+    "id": 275,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "12:20"
+  },
+  {
+    "id": 276,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:25"
+  },
+  {
+    "id": 277,
+    "from": "Puttur",
+    "to": "Uppala",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "12:30"
+  },
+  {
+    "id": 278,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "12:30"
+  },
+  {
+    "id": 279,
+    "from": "Puttur",
+    "to": "Kalmadka",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "12:30"
+  },
+  {
+    "id": 280,
+    "from": "Puttur",
+    "to": "Balugodu",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "12:30"
+  },
+  {
+    "id": 281,
+    "from": "Puttur",
+    "to": "Galimukha",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "12:30"
+  },
+  {
+    "id": 282,
+    "from": "Puttur",
+    "to": "Virajpete",
+    "via": "Madikeri",
+    "type": "Express",
+    "time": "12:30"
+  },
+  {
+    "id": 283,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:30"
+  },
+  {
+    "id": 284,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:37"
+  },
+  {
+    "id": 285,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "12:40"
+  },
+  {
+    "id": 286,
+    "from": "Puttur",
+    "to": "Kundapura",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "12:40"
+  },
+  {
+    "id": 287,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "12:40"
+  },
+  {
+    "id": 288,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "13:00"
+  },
+  {
+    "id": 289,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Savanuru",
+    "type": "Ordinary",
+    "time": "12:45"
+  },
+  {
+    "id": 290,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "12:45"
+  },
+  {
+    "id": 291,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:45"
+  },
+  {
+    "id": 292,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "12:52"
+  },
+  {
+    "id": 293,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "13:00"
+  },
+  {
+    "id": 294,
+    "from": "Puttur",
+    "to": "Kukkujadka",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "13:00"
+  },
+  {
+    "id": 295,
+    "from": "Puttur",
+    "to": "Nuliyalu",
+    "via": "Renja, Tambuthadka",
+    "type": "Ordinary",
+    "time": "13:00"
+  },
+  {
+    "id": 296,
+    "from": "Puttur",
+    "to": "Madikeri",
+    "via": "Sulya",
+    "type": "Express",
+    "time": "13:00"
+  },
+  {
+    "id": 297,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:00"
+  },
+  {
+    "id": 298,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "13:00"
+  },
+  {
+    "id": 299,
+    "from": "Puttur",
+    "to": "Patrame",
+    "via": "Uppinangady, Kokkada",
+    "type": "Ordinary",
+    "time": "13:05"
+  },
+  {
+    "id": 300,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:07"
+  },
+  {
+    "id": 301,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "13:10"
+  },
+  {
+    "id": 302,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Express",
+    "time": "13:10"
+  },
+  {
+    "id": 303,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "13:15"
+  },
+  {
+    "id": 304,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "13:15"
+  },
+  {
+    "id": 305,
+    "from": "Puttur",
+    "to": "Veeramangala",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "13:15"
+  },
+  {
+    "id": 306,
+    "from": "Puttur",
+    "to": "Alike",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "13:20"
+  },
+  {
+    "id": 307,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "13:15"
+  },
+  {
+    "id": 308,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Uppinangady, Kadaba",
+    "type": "Ordinary",
+    "time": "13:15"
+  },
+  {
+    "id": 309,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri,Mysuru",
+    "type": "Volvo",
+    "time": "13:15"
+  },
+  {
+    "id": 310,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:15"
+  },
+  {
+    "id": 312,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "13:15"
+  },
+  {
+    "id": 313,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "13:20"
+  },
+  {
+    "id": 314,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:20"
+  },
+  {
+    "id": 315,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Belthangady",
+    "type": "Ordinary",
+    "time": "13:25"
+  },
+  {
+    "id": 316,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "13:25"
+  },
+  {
+    "id": 317,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:27"
+  },
+  {
+    "id": 318,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kavu, Ishwaramangila",
+    "type": "Ordinary",
+    "time": "13:30"
+  },
+  {
+    "id": 319,
+    "from": "Puttur",
+    "to": "Kalmadka",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "13:30"
+  },
+  {
+    "id": 320,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "13:30"
+  },
+  {
+    "id": 321,
+    "from": "Puttur",
+    "to": "Thingalady",
+    "via": "Munduru",
+    "type": "Ordinary",
+    "time": "13:30"
+  },
+  {
+    "id": 322,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Uppinangady, Kadaba",
+    "type": "Ordinary",
+    "time": "13:30"
+  },
+  {
+    "id": 323,
+    "from": "Puttur",
+    "to": "Kundapura",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "13:30"
+  },
+  {
+    "id": 324,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "13:30"
+  },
+  {
+    "id": 325,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:37"
+  },
+  {
+    "id": 326,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "13:40"
+  },
+  {
+    "id": 327,
+    "from": "Puttur",
+    "to": "Palakunja",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "13:45"
+  },
+  {
+    "id": 328,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "13:45"
+  },
+  {
+    "id": 329,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "13:45"
+  },
+  {
+    "id": 330,
+    "from": "Puttur",
+    "to": "Ninthikallu",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "13:45"
+  },
+  {
+    "id": 331,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri",
+    "type": "Express",
+    "time": "13:45"
+  },
+  {
+    "id": 332,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:45"
+  },
+  {
+    "id": 333,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "13:45"
+  },
+  {
+    "id": 334,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:50"
+  },
+  {
+    "id": 335,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "",
+    "type": "Limited stop",
+    "time": "14:30"
+  },
+  {
+    "id": 336,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 337,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 338,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 339,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 340,
+    "from": "Puttur",
+    "to": "KADABA",
+    "via": "Kaniyuru, Edamangala",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 341,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Perlampady",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 342,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 343,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 344,
+    "from": "Puttur",
+    "to": "Udupi",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "14:00"
+  },
+  {
+    "id": 345,
+    "from": "Puttur",
+    "to": "Madikeri",
+    "via": "Sulya",
+    "type": "Express",
+    "time": "14:00"
+  },
+  {
+    "id": 346,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:00"
+  },
+  {
+    "id": 347,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "14:00"
+  },
+  {
+    "id": 348,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:03"
+  },
+  {
+    "id": 349,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "14:10"
+  },
+  {
+    "id": 350,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:10"
+  },
+  {
+    "id": 351,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "14:15"
+  },
+  {
+    "id": 352,
+    "from": "Puttur",
+    "to": "Kutta",
+    "via": "Madikeri",
+    "type": "Express",
+    "time": "14:15"
+  },
+  {
+    "id": 353,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "14:15"
+  },
+  {
+    "id": 354,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:15"
+  },
+  {
+    "id": 355,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "14:15"
+  },
+  {
+    "id": 356,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "14:20"
+  },
+  {
+    "id": 357,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:20"
+  },
+  {
+    "id": 358,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:25"
+  },
+  {
+    "id": 359,
+    "from": "Puttur",
+    "to": "Kanchana",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 360,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 361,
+    "from": "Puttur",
+    "to": "Kukkusubrahmany",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 362,
+    "from": "Puttur",
+    "to": "Ninthikallu",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 364,
+    "from": "Puttur",
+    "to": "Kotyadi",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 365,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "14:30"
+  },
+  {
+    "id": 366,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:30"
+  },
+  {
+    "id": 367,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 368,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "14:35"
+  },
+  {
+    "id": 369,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:35"
+  },
+  {
+    "id": 370,
+    "from": "Puttur",
+    "to": "Uppala",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "14:30"
+  },
+  {
+    "id": 371,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:40"
+  },
+  {
+    "id": 372,
+    "from": "Puttur",
+    "to": "Palakunja",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "14:45"
+  },
+  {
+    "id": 373,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "14:45"
+  },
+  {
+    "id": 374,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "14:45"
+  },
+  {
+    "id": 375,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "14:45"
+  },
+  {
+    "id": 376,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:45"
+  },
+  {
+    "id": 377,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "14:45"
+  },
+  {
+    "id": 378,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "14:50"
+  },
+  {
+    "id": 379,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:50"
+  },
+  {
+    "id": 380,
+    "from": "Puttur",
+    "to": "BC Road",
+    "via": "Shamburu, Ananthady",
+    "type": "Ordinary",
+    "time": "14:55"
+  },
+  {
+    "id": 381,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "15:00"
+  },
+  {
+    "id": 382,
+    "from": "Puttur",
+    "to": "Ballaka",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "15:00"
+  },
+  {
+    "id": 383,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Madavu",
+    "type": "Ordinary",
+    "time": "15:00"
+  },
+  {
+    "id": 384,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "15:00"
+  },
+  {
+    "id": 385,
+    "from": "Puttur",
+    "to": "Udupi",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "15:00"
+  },
+  {
+    "id": 386,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Non stop",
+    "time": "15:00"
+  },
+  {
+    "id": 387,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "15:00"
+  },
+  {
+    "id": 388,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Ordinary",
+    "time": "15:05"
+  },
+  {
+    "id": 389,
+    "from": "Puttur",
+    "to": "Pakalakunja",
+    "via": "Vittla",
+    "type": "Ordinary",
+    "time": "17:10"
+  },
+  {
+    "id": 390,
+    "from": "Puttur",
+    "to": "Vittla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 391,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "15:10"
+  },
+  {
+    "id": 392,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:10"
+  },
+  {
+    "id": 393,
+    "from": "Puttur",
+    "to": "Ujire",
+    "via": "Uppinangady, Belthangady",
+    "type": "Ordinary",
+    "time": "15:15"
+  },
+  {
+    "id": 394,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "15:15"
+  },
+  {
+    "id": 395,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "15:15"
+  },
+  {
+    "id": 396,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Kushalanagara,Mysuru",
+    "type": "Rajahamsa",
+    "time": "15:20"
+  },
+  {
+    "id": 397,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:15"
+  },
+  {
+    "id": 398,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "15:15"
+  },
+  {
+    "id": 399,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "15:20"
+  },
+  {
+    "id": 400,
+    "from": "Puttur",
+    "to": "Beedigudde",
+    "via": "Munduru, Bellare",
+    "type": "Ordinary",
+    "time": "15:20"
+  },
+  {
+    "id": 401,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "15:20"
+  },
+  {
+    "id": 402,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:20"
+  },
+  {
+    "id": 403,
+    "from": "Puttur",
+    "to": "Gummatagadde",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "13:30"
+  },
+  {
+    "id": 404,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "14:45"
+  },
+  {
+    "id": 405,
+    "from": "Puttur",
+    "to": "Veeramangala",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 406,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Haleneraki, Golithottu, Anar,",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 407,
+    "from": "Puttur",
+    "to": "Muduva",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 408,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 409,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 410,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 411,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "15:30"
+  },
+  {
+    "id": 412,
+    "from": "Puttur",
+    "to": "Nellipalike",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "15:35"
+  },
+  {
+    "id": 413,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:37"
+  },
+  {
+    "id": 414,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "15:40"
+  },
+  {
+    "id": 416,
+    "from": "Puttur",
+    "to": "Alike",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "15:40"
+  },
+  {
+    "id": 417,
+    "from": "Puttur",
+    "to": "Madikeri",
+    "via": "Sulya",
+    "type": "Express",
+    "time": "15:40"
+  },
+  {
+    "id": 418,
+    "from": "Puttur",
+    "to": "Galimukha",
+    "via": "Kav, Ishwaramangala, Karnuru",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 419,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Savanuru",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 420,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 421,
+    "from": "Puttur",
+    "to": "Vadya",
+    "via": "Renja",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 422,
+    "from": "Puttur",
+    "to": "Kallugudde",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 423,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Madavu, Bellare, Chokkadi",
+    "type": "Ordinary",
+    "time": "15:45"
+  },
+  {
+    "id": 424,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:45"
+  },
+  {
+    "id": 425,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "14:20"
+  },
+  {
+    "id": 426,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "15:50"
+  },
+  {
+    "id": 427,
+    "from": "Puttur",
+    "to": "Madikeri",
+    "via": "Sulya",
+    "type": "Express",
+    "time": "15:50"
+  },
+  {
+    "id": 428,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:50"
+  },
+  {
+    "id": 429,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "15:55"
+  },
+  {
+    "id": 430,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "16:00"
+  },
+  {
+    "id": 431,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Perlampady",
+    "type": "Ordinary",
+    "time": "16:00"
+  },
+  {
+    "id": 432,
+    "from": "Puttur",
+    "to": "Panja",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "16:00"
+  },
+  {
+    "id": 433,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "16:00"
+  },
+  {
+    "id": 434,
+    "from": "Puttur",
+    "to": "Kundapura",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "16:00"
+  },
+  {
+    "id": 435,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:00"
+  },
+  {
+    "id": 436,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "16:00"
+  },
+  {
+    "id": 437,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:07"
+  },
+  {
+    "id": 438,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "16:10"
+  },
+  {
+    "id": 439,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "16:10"
+  },
+  {
+    "id": 440,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "16:15"
+  },
+  {
+    "id": 441,
+    "from": "Puttur",
+    "to": "Darbethadka",
+    "via": "Kumba",
+    "type": "Ordinary",
+    "time": "16:15"
+  },
+  {
+    "id": 442,
+    "from": "Puttur",
+    "to": "Kalmadka",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "16:15"
+  },
+  {
+    "id": 443,
+    "from": "Puttur",
+    "to": "Manjeshwara",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "16:15"
+  },
+  {
+    "id": 444,
+    "from": "Puttur",
+    "to": "Madurai",
+    "via": "Madikeri, Mysuru",
+    "type": "Express",
+    "time": "16:15"
+  },
+  {
+    "id": 445,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:18"
+  },
+  {
+    "id": 446,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "16:20"
+  },
+  {
+    "id": 447,
+    "from": "Puttur",
+    "to": "Kaniyaru",
+    "via": "Munduru, Thingalady",
+    "type": "Ordinary",
+    "time": "16:20"
+  },
+  {
+    "id": 448,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "16:20"
+  },
+  {
+    "id": 449,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:25"
+  },
+  {
+    "id": 450,
+    "from": "Puttur",
+    "to": "Galimukha",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 451,
+    "from": "Puttur",
+    "to": "Kanchana",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 452,
+    "from": "Puttur",
+    "to": "Palakunja",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 453,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "16:15"
+  },
+  {
+    "id": 454,
+    "from": "Puttur",
+    "to": "Derla",
+    "via": "Kumba",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 455,
+    "from": "Puttur",
+    "to": "Balugodu",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 456,
+    "from": "Puttur",
+    "to": "Darbethadka",
+    "via": "Uppalige",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 457,
+    "from": "Puttur",
+    "to": "Nuliyalu",
+    "via": "Renja, Thambuthadka",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 458,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 459,
+    "from": "Puttur",
+    "to": "Somavarapete",
+    "via": "Madikeri",
+    "type": "Express",
+    "time": "16:30"
+  },
+  {
+    "id": 460,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "16:30"
+  },
+  {
+    "id": 461,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "16:30"
+  },
+  {
+    "id": 462,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:32"
+  },
+  {
+    "id": 463,
+    "from": "Puttur",
+    "to": "Kumaramangala",
+    "via": "Sarve",
+    "type": "Ordinary",
+    "time": "16:40"
+  },
+  {
+    "id": 464,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:40"
+  },
+  {
+    "id": 465,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 466,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Bulerikatte",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 468,
+    "from": "Puttur",
+    "to": "Bellipaddy",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 469,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 470,
+    "from": "Puttur",
+    "to": "Kalpane",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 471,
+    "from": "Puttur",
+    "to": "Surya",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 472,
+    "from": "Puttur",
+    "to": "Kedila",
+    "via": "Mura",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 473,
+    "from": "Puttur",
+    "to": "Thingalady",
+    "via": "Munduru",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 474,
+    "from": "Puttur",
+    "to": "Coimbator",
+    "via": "Madikeri,Mysuru",
+    "type": "Volvo",
+    "time": "16:45"
+  },
+  {
+    "id": 475,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:45"
+  },
+  {
+    "id": 476,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "16:45"
+  },
+  {
+    "id": 477,
+    "from": "Puttur",
+    "to": "Kuriya",
+    "via": "Purpunja",
+    "type": "Ordinary",
+    "time": "16:50"
+  },
+  {
+    "id": 478,
+    "from": "Puttur",
+    "to": "Somavarapete",
+    "via": "Madikeri",
+    "type": "Express",
+    "time": "16:50"
+  },
+  {
+    "id": 479,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:52"
+  },
+  {
+    "id": 480,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "16:58"
+  },
+  {
+    "id": 481,
+    "from": "Puttur",
+    "to": "Ananthady",
+    "via": "Neralakatte",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 482,
+    "from": "Puttur",
+    "to": "Pailar",
+    "via": "Perlampady",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 483,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Express",
+    "time": "17:00"
+  },
+  {
+    "id": 484,
+    "from": "Puttur",
+    "to": "Panaje",
+    "via": "Santyar, Renja",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 485,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 486,
+    "from": "Puttur",
+    "to": "Kedila",
+    "via": "Nagara, Mura",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 487,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Savanuru",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 488,
+    "from": "Puttur",
+    "to": "Aduru",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 489,
+    "from": "Puttur",
+    "to": "Kodimara",
+    "via": "Bolwar",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 490,
+    "from": "Puttur",
+    "to": "Kodippady",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 491,
+    "from": "Puttur",
+    "to": "Panaje",
+    "via": "Santyar, Renja",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 492,
+    "from": "Puttur",
+    "to": "Shanthigodu",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 493,
+    "from": "Puttur",
+    "to": "Udupi",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "17:00"
+  },
+  {
+    "id": 494,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "17:00"
+  },
+  {
+    "id": 495,
+    "from": "Puttur",
+    "to": "Nettana",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "17:05"
+  },
+  {
+    "id": 496,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:08"
+  },
+  {
+    "id": 497,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "17:10"
+  },
+  {
+    "id": 498,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kundadka, Balnadu",
+    "type": "Ordinary",
+    "time": "17:15"
+  },
+  {
+    "id": 499,
+    "from": "Puttur",
+    "to": "Kadaba",
+    "via": "Shanthimogeru",
+    "type": "Ordinary",
+    "time": "17:15"
+  },
+  {
+    "id": 500,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "17:15"
+  },
+  {
+    "id": 501,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "17:15"
+  },
+  {
+    "id": 502,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "17:15"
+  },
+  {
+    "id": 503,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:18"
+  },
+  {
+    "id": 504,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "17:20"
+  },
+  {
+    "id": 505,
+    "from": "Puttur",
+    "to": "Malla",
+    "via": "Vitla, Badiyadka",
+    "type": "Ordinary",
+    "time": "17:20"
+  },
+  {
+    "id": 506,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:23"
+  },
+  {
+    "id": 507,
+    "from": "Puttur",
+    "to": "Uppala",
+    "via": "Vitla, Kanyana",
+    "type": "Ordinary",
+    "time": "17:30"
+  },
+  {
+    "id": 508,
+    "from": "Puttur",
+    "to": "Kadeshivalya",
+    "via": "Kedila",
+    "type": "Ordinary",
+    "time": "17:30"
+  },
+  {
+    "id": 509,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "17:30"
+  },
+  {
+    "id": 510,
+    "from": "Puttur",
+    "to": "Anadka",
+    "via": "",
+    "type": "Ordinary",
+    "time": "17:10"
+  },
+  {
+    "id": 511,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "17:30"
+  },
+  {
+    "id": 512,
+    "from": "Puttur",
+    "to": "Kundapura",
+    "via": "BC Road, Mangaluru",
+    "type": "Express",
+    "time": "15:30"
+  },
+  {
+    "id": 513,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:30"
+  },
+  {
+    "id": 514,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "17:30"
+  },
+  {
+    "id": 515,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:37"
+  },
+  {
+    "id": 516,
+    "from": "Puttur",
+    "to": "Badiyadka",
+    "via": "Vitla",
+    "type": "Ordinary",
+    "time": "17:45"
+  },
+  {
+    "id": 517,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "17:45"
+  },
+  {
+    "id": 518,
+    "from": "Puttur",
+    "to": "Savanuru",
+    "via": "Purusharakatte",
+    "type": "Ordinary",
+    "time": "17:45"
+  },
+  {
+    "id": 520,
+    "from": "Puttur",
+    "to": "Kallugudde",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "18:00"
+  },
+  {
+    "id": 521,
+    "from": "Puttur",
+    "to": "Galimukha",
+    "via": "Kav, Ishwaramangala, Karnur",
+    "type": "Ordinary",
+    "time": "17:45"
+  },
+  {
+    "id": 522,
+    "from": "Puttur",
+    "to": "Kalmadka",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "17:45"
+  },
+  {
+    "id": 523,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri,Mysuru",
+    "type": "Express",
+    "time": "17:45"
+  },
+  {
+    "id": 524,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:45"
+  },
+  {
+    "id": 525,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "17:45"
+  },
+  {
+    "id": 526,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:52"
+  },
+  {
+    "id": 527,
+    "from": "Puttur",
+    "to": "Bellare",
+    "via": "Perlampady, Pambar",
+    "type": "Ordinary",
+    "time": "18:00"
+  },
+  {
+    "id": 528,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "18:00"
+  },
+  {
+    "id": 529,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "18:00"
+  },
+  {
+    "id": 530,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "18:03"
+  },
+  {
+    "id": 531,
+    "from": "Puttur",
+    "to": "Kukkusubrahmanya",
+    "via": "Bellare",
+    "type": "Ordinary",
+    "time": "18:15"
+  },
+  {
+    "id": 532,
+    "from": "Puttur",
+    "to": "Delampady",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "18:15"
+  },
+  {
+    "id": 533,
+    "from": "Puttur",
+    "to": "Edamangala",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "18:15"
+  },
+  {
+    "id": 534,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Perigeri, Padumale",
+    "type": "Ordinary",
+    "time": "18:15"
+  },
+  {
+    "id": 535,
+    "from": "Puttur",
+    "to": "Kasaragodu",
+    "via": "Vitla, Badiyadka",
+    "type": "Ordinary",
+    "time": "18:15"
+  },
+  {
+    "id": 536,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "18:15"
+  },
+  {
+    "id": 537,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "18:20"
+  },
+  {
+    "id": 538,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "18:20"
+  },
+  {
+    "id": 539,
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": "Uppinangady, Belthangady, Ujire",
+    "type": "Ordinary",
+    "time": "18:45"
+  },
+  {
+    "id": 540,
+    "from": "Puttur",
+    "to": "Edamangala",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "18:30"
+  },
+  {
+    "id": 541,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "18:30"
+  },
+  {
+    "id": 542,
+    "from": "Puttur",
+    "to": "Kolar",
+    "via": "Madikeri,Mysuru",
+    "type": "Express",
+    "time": "18:30"
+  },
+  {
+    "id": 543,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "17:45"
+  },
+  {
+    "id": 544,
+    "from": "Puttur",
+    "to": "BC Road",
+    "via": "Mani",
+    "type": "Ordinary",
+    "time": "18:40"
+  },
+  {
+    "id": 545,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "18:40"
+  },
+  {
+    "id": 546,
+    "from": "Puttur",
+    "to": "Kanchana",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "18:45"
+  },
+  {
+    "id": 547,
+    "from": "Puttur",
+    "to": "Panaje",
+    "via": "Santyar, renja",
+    "type": "Ordinary",
+    "time": "18:45"
+  },
+  {
+    "id": 548,
+    "from": "Puttur",
+    "to": "Pailar",
+    "via": "Madavu, Bellare",
+    "type": "Ordinary",
+    "time": "18:45"
+  },
+  {
+    "id": 549,
+    "from": "Puttur",
+    "to": "BC Road",
+    "via": "Mani",
+    "type": "Ordinary",
+    "time": "18:55"
+  },
+  {
+    "id": 550,
+    "from": "Puttur",
+    "to": "Vitla",
+    "via": "Kabaka",
+    "type": "Ordinary",
+    "time": "19:00"
+  },
+  {
+    "id": 551,
+    "from": "Puttur",
+    "to": "Muduva",
+    "via": "Kaniyuru",
+    "type": "Ordinary",
+    "time": "19:00"
+  },
+  {
+    "id": 552,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "19:00"
+  },
+  {
+    "id": 553,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Non stop",
+    "time": "19:00"
+  },
+  {
+    "id": 554,
+    "from": "Puttur",
+    "to": "Haleneranki",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "19:15"
+  },
+  {
+    "id": 555,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Permalpady, Bellare. Kukkesubramanya",
+    "type": "Express",
+    "time": "19:15"
+  },
+  {
+    "id": 556,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "18:40"
+  },
+  {
+    "id": 557,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "19:15"
+  },
+  {
+    "id": 558,
+    "from": "Puttur",
+    "to": "Sulliapadavu",
+    "via": "Kav, Ishwaramangala",
+    "type": "Ordinary",
+    "time": "19:30"
+  },
+  {
+    "id": 559,
+    "from": "Puttur",
+    "to": "Beedigudde",
+    "via": "Kaniyuru, Panja",
+    "type": "Ordinary",
+    "time": "19:30"
+  },
+  {
+    "id": 560,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "19:30"
+  },
+  {
+    "id": 561,
+    "from": "Puttur",
+    "to": "Enithadka",
+    "via": "Uppinangady",
+    "type": "Ordinary",
+    "time": "19:40"
+  },
+  {
+    "id": 562,
+    "from": "Puttur",
+    "to": "Panaje",
+    "via": "Santyar, renja",
+    "type": "Ordinary",
+    "time": "19:45"
+  },
+  {
+    "id": 563,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri,Mysuru",
+    "type": "Express",
+    "time": "19:45"
+  },
+  {
+    "id": 564,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "19:45"
+  },
+  {
+    "id": 565,
+    "from": "Puttur",
+    "to": "Uppinangady",
+    "via": "Kodiyadi",
+    "type": "Ordinary",
+    "time": "20:00"
+  },
+  {
+    "id": 566,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "20:00"
+  },
+  {
+    "id": 567,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Kaniyuru, Kukkesubramanya",
+    "type": "SLEEPER",
+    "time": "20:03"
+  },
+  {
+    "id": 568,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "20:10"
+  },
+  {
+    "id": 569,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "20:15"
+  },
+  {
+    "id": 570,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Kadaba, Kukkesubramanya",
+    "type": "Non AC sleeper",
+    "time": "20:30"
+  },
+  {
+    "id": 572,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "20:30"
+  },
+  {
+    "id": 573,
+    "from": "Puttur",
+    "to": "Sulya",
+    "via": "Jalsuru",
+    "type": "Ordinary",
+    "time": "20:30"
+  },
+  {
+    "id": 574,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "20:45"
+  },
+  {
+    "id": 575,
+    "from": "Puttur",
+    "to": "Mangaluru",
+    "via": "B C road",
+    "type": "Express",
+    "time": "21:00"
+  },
+  {
+    "id": 576,
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": "Madikeri, Kushalanagara",
+    "type": "Express",
+    "time": "21:00"
+  },
+  {
+    "id": 577,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Madikeri, Mysuru",
+    "type": "Non AC sleeper",
+    "time": "21:15"
+  },
+  {
+    "id": 578,
+    "from": "Puttur",
+    "to": "Mangalore",
+    "via": "B C road",
+    "type": "Express",
+    "time": "21:30"
+  },
+  {
+    "id": 579,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Hassan",
+    "type": "Non AC sleeper",
+    "time": "21:50"
+  },
+  {
+    "id": 580,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Hassan",
+    "type": "Rajahamsa",
+    "time": "22:15"
+  },
+  {
+    "id": 581,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Hassan",
+    "type": "Volvo",
+    "time": "22:30"
+  },
+  {
+    "id": 582,
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": "Hassan",
+    "type": "Non AC sleeper",
+    "time": "22:40"
+  },
+  {
+    "id": 583,
+    "from": "Puttur",
+    "to": "Statebank",
+    "via": "BC Road",
+    "type": "Limited stop",
+    "time": "7:30"
+  }
+]

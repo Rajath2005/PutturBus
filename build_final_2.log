@@ -1,0 +1,24 @@
+
+> web@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.3s
+  Running TypeScript ...
+Failed to compile.
+
+./tailwind.config.ts:4:5
+Type error: Type '["class"]' is not assignable to type 'DarkModeStrategy | undefined'.
+  Type '["class"]' is not assignable to type '["class", string]'.
+    Source has 1 element(s) but target requires 2.
+
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mconst[39m config[33m:[39m [33mConfig[39m [33m=[39m {
+[31m[1m>[22m[39m[90m 4 |[39m     darkMode[33m:[39m [[32m"class"[39m][33m,[39m
+ [90m   |[39m     [31m[1m^[22m[39m
+ [90m 5 |[39m     content[33m:[39m [
+ [90m 6 |[39m         [32m"./src/pages/**/*.{js,ts,jsx,tsx,mdx}"[39m[33m,[39m
+ [90m 7 |[39m         [32m"./src/components/**/*.{js,ts,jsx,tsx,mdx}"[39m[33m,[39m[0m
+Next.js build worker exited with code: 1 and signal: null
