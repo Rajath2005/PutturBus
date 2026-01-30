@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import { RoutePageClient } from '@/components/RoutePageClient';
 
+import { IntercityRoutePageClient } from '@/components/IntercityRoutePageClient';
+import { findDestination, isIntercityDest } from '@/lib/route-matcher';
+
 interface Props {
     params: Promise<{
         slug: string;
@@ -21,5 +24,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function RoutePage({ params }: Props) {
     const { slug } = await params;
+    const destName = findDestination(slug);
+
+    if (isIntercityDest(destName)) {
+        return <IntercityRoutePageClient slug={slug} />;
+    }
+
     return <RoutePageClient slug={slug} />;
 }

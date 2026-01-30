@@ -14,20 +14,26 @@ DESTINATIONS.forEach(dest => {
 
 // Common Aliases to Canonical Names in JSON
 const ALIAS_MAP: Record<string, string> = {
+    'hubbali': 'Hubli',
+    'hubballi': 'Hubli',
+    'kukkesubramanya': 'Kukke Subrahmanya',
+    'kukkusubrahmany': 'Kukke Subrahmanya',
+    'mysuru': 'Mysuru',
     'mysore': 'Mysuru',
-    'mangalore': 'Statebank', // Start with Statebank as it's the main detailed one? Or 'Mangaluru'?
+    'bengaluru': 'Bengaluru',
+    'bangalore': 'Bengaluru',
+    'panaji': 'Panaji',
+    'goa': 'Panaji',
+    'mangalore': 'Statebank',
     'mangaluru': 'Statebank',
     'statebank': 'Statebank',
     'kasaragod': 'Kasaragodu',
-    'kukke': 'Kukkusubrahmany', // Data has 'Kukkusubrahmany'
-    'subrahmanya': 'Kukkusubrahmany',
-    'dharmasthala': 'Dharmastala', // Data has 'Dharmastala'
+    'dharmasthala': 'Dharmastala',
     'sullia': 'Sulya',
     'uppinangadi': 'Uppinangady',
     'b c road': 'BC Road',
     'bc road': 'BC Road',
-    'bcroad': 'BC Road',
-    'bangalore': 'Bengaluru',
+    'bcroad': 'BC Road'
 };
 
 // Fuzzy Search Instance
@@ -70,6 +76,47 @@ export function findDestination(slug: string): string | null {
     }
 
     return null;
+}
+
+// Explicit list of Intercity Destinations
+// These will trigger the Intercity Engine
+const INTERCITY_KEYS = new Set([
+    'Bengaluru',
+    'Mysuru',
+    'Panaji',
+    'Kasaragod',
+    'Hubli',
+    'Mumbai',
+    'Goa',
+    'Badiyadka',
+    'Bhatkala',
+    'Chamarajanagara',
+    'Channarayapatna',
+    'Coimbatore',
+    'Dharmastala',
+    'Gokarna',
+    'Gudlupet',
+    'Hubbali',
+    'KGF',
+    'Kollegala',
+    'Kundapura',
+    'Kutta',
+    'Madikeri',
+    'Madurai',
+    'Malla',
+    'Nanjanagud',
+    'Ooty',
+    'Somavarapete',
+    'Udupi',
+    'Virajapete'
+]);
+
+export function isIntercityDest(destination: string | null): boolean {
+    if (!destination) return false;
+    // Check if the canonical name is in our Intercity List
+    // OR if it's NOT in the inferred Local list (if we want that logic).
+    // For now, explicit inclusion is safer to avoid breaking existing routes.
+    return INTERCITY_KEYS.has(destination) || destination === 'Kasaragodu';
 }
 
 export function getAllDestinations(): string[] {

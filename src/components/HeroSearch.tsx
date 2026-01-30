@@ -5,7 +5,7 @@ import { Search, MapPin, ArrowRight, History, Navigation } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SearchTabs } from './SearchTabs';
 
-const POPULAR_DESTINATIONS = ['Mangalore', 'BC Road', 'Sulya', 'Kasaragod', 'Mysore'];
+const POPULAR_DESTINATIONS = ['Mangalore', 'Bengaluru', 'Mysuru', 'Kasaragod', 'Panaji'];
 
 interface HeroSearchProps {
     onSearch: (term: string) => void;

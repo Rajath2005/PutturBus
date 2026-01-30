@@ -40,6 +40,24 @@ export const WAYPOINTS: Record<string, Coordinates> = {
     'vitla': { lat: 12.7668, lng: 75.0934 },
     'kadaba': { lat: 12.7214, lng: 75.4678 },
     'bellare': { lat: 12.6300, lng: 75.4000 },
+
+    // Intercity Destinations
+    'panaji': { lat: 15.4909, lng: 73.8278 },
+    'goa': { lat: 15.4909, lng: 73.8278 },
+    'hubli': { lat: 15.3647, lng: 75.1240 },
+    'mumbai': { lat: 19.0760, lng: 72.8777 },
+    'madikeri': { lat: 12.4244, lng: 75.7382 },
+    'kushalnagar': { lat: 12.4506, lng: 75.9577 },
+    'hassan': { lat: 13.0033, lng: 76.1004 },
+    'nelamangala': { lat: 13.0994, lng: 77.3877 },
+    'udupi': { lat: 13.3409, lng: 74.7421 },
+    'karwar': { lat: 14.8200, lng: 74.1200 },
+    'murudeshwar': { lat: 14.0940, lng: 74.4850 },
+    'mandya': { lat: 12.5206, lng: 76.8951 },
+    'ramanagara': { lat: 12.7219, lng: 77.2797 },
+    'channapatna': { lat: 12.6518, lng: 77.2089 },
+    'badiyadka': { lat: 12.5937, lng: 75.0537 },
+    'vittal': { lat: 12.7668, lng: 75.0934 },
 };
 
 /**

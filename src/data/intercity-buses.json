@@ -1,0 +1,2104 @@
+[
+  {
+    "id": "pdf-1",
+    "from": "Puttur",
+    "to": "Badiyadka",
+    "via": [
+      "Vitla"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "17:45",
+    "arrivalTime": "19:45",
+    "duration": "45m",
+    "distanceKm": 25,
+    "daysRunning": "Daily",
+    "price": 35
+  },
+  {
+    "id": "pdf-2",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "07:15",
+    "arrivalTime": "14:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-3",
+    "from": "B C Road",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "07:30",
+    "arrivalTime": "15:00",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-4",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "07:45",
+    "arrivalTime": "15:15",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-5",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:00",
+    "arrivalTime": "15:30",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-6",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Airavat",
+    "departureTime": "09:15",
+    "arrivalTime": "16:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-7",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Hasana"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:00",
+    "arrivalTime": "17:30",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-8",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:15",
+    "arrivalTime": "17:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-9",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Airavat",
+    "departureTime": "11:05",
+    "arrivalTime": "18:35",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-10",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:15",
+    "arrivalTime": "18:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-11",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:15",
+    "arrivalTime": "18:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-12",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:40",
+    "arrivalTime": "19:10",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-13",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Kaniyuru",
+      "Kukkesubramanya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:00",
+    "arrivalTime": "19:30",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-14",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Airavat",
+    "departureTime": "13:15",
+    "arrivalTime": "20:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-15",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:20",
+    "arrivalTime": "20:50",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-16",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "17:45",
+    "arrivalTime": "01:15",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-17",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "18:45",
+    "arrivalTime": "02:15",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-18",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Bellare",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "19:45",
+    "arrivalTime": "03:15",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-19",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "19:45",
+    "arrivalTime": "03:15",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-20",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Kaniyuru",
+      "Kukkesubramanya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "20:00",
+    "arrivalTime": "03:30",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-21",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Kadaba",
+      "Kukkesubramanya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "20:30",
+    "arrivalTime": "04:00",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-22",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "20:30",
+    "arrivalTime": "04:00",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-23",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "NAC Sleeper",
+    "departureTime": "21:15",
+    "arrivalTime": "04:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-24",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Hassan"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "NAC Sleeper",
+    "departureTime": "21:50",
+    "arrivalTime": "05:20",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-25",
+    "from": "Alike",
+    "to": "Bengaluru",
+    "via": [
+      "Hassan"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "22:15",
+    "arrivalTime": "05:45",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-26",
+    "from": "Puttur",
+    "to": "Bengaluru",
+    "via": [
+      "Hassan"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "22:30",
+    "arrivalTime": "06:00",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-27",
+    "from": "Mangaluru",
+    "to": "Bengaluru",
+    "via": [
+      "Hassan"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Airavat",
+    "departureTime": "22:30",
+    "arrivalTime": "06:00",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-28",
+    "from": "B C Road",
+    "to": "Bengaluru",
+    "via": [
+      "Hassan"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "NAC Sleeper",
+    "departureTime": "22:40",
+    "arrivalTime": "06:10",
+    "duration": "7h 30m",
+    "distanceKm": 310,
+    "daysRunning": "Daily",
+    "price": 650
+  },
+  {
+    "id": "pdf-29",
+    "from": "Mysuru",
+    "to": "Bhatkala",
+    "via": [
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:00",
+    "arrivalTime": "17:00",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 250
+  },
+  {
+    "id": "pdf-30",
+    "from": "Dharmastala",
+    "to": "Chamarajanagara",
+    "via": [
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:45",
+    "arrivalTime": "15:15",
+    "duration": "5h 30m",
+    "distanceKm": 220,
+    "daysRunning": "Daily",
+    "price": 350
+  },
+  {
+    "id": "pdf-31",
+    "from": "Udupi",
+    "to": "Chamarajanagara",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:00",
+    "arrivalTime": "16:30",
+    "duration": "5h 30m",
+    "distanceKm": 220,
+    "daysRunning": "Daily",
+    "price": 350
+  },
+  {
+    "id": "pdf-32",
+    "from": "Dharmastala",
+    "to": "Channarayapatna",
+    "via": [
+      "Madikeri",
+      "Somavarpete"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:20",
+    "arrivalTime": "15:50",
+    "duration": "3h 30m",
+    "distanceKm": 150,
+    "daysRunning": "Daily",
+    "price": 200
+  },
+  {
+    "id": "pdf-33",
+    "from": "Mangaluru",
+    "to": "Coimbatore",
+    "via": [
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Airavat",
+    "departureTime": "16:45",
+    "arrivalTime": "00:45",
+    "duration": "8h",
+    "distanceKm": 350,
+    "daysRunning": "Daily",
+    "price": 600
+  },
+  {
+    "id": "pdf-34",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:15",
+    "arrivalTime": "09:45",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-35",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:40",
+    "arrivalTime": "10:10",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-36",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:30",
+    "arrivalTime": "11:00",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-37",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:30",
+    "arrivalTime": "12:00",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-38",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:00",
+    "arrivalTime": "12:30",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-39",
+    "from": "Madikeri",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:45",
+    "arrivalTime": "13:15",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-40",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:30",
+    "arrivalTime": "14:00",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-41",
+    "from": "Somavarapete",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:45",
+    "arrivalTime": "12:15",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-42",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:00",
+    "arrivalTime": "13:30",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-43",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:20",
+    "arrivalTime": "14:50",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-44",
+    "from": "Puttur",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:30",
+    "arrivalTime": "16:00",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-45",
+    "from": "Madikeri",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:45",
+    "arrivalTime": "16:15",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-46",
+    "from": "Madikeri",
+    "to": "Dharmastala",
+    "via": [
+      "Uppinangady",
+      "Belthangady",
+      "Ujire"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "17:00",
+    "arrivalTime": "18:30",
+    "duration": "1h 30m",
+    "distanceKm": 50,
+    "daysRunning": "Daily",
+    "price": 70
+  },
+  {
+    "id": "pdf-47",
+    "from": "Mysuru",
+    "to": "Gokarna",
+    "via": [
+      "Mangaluru",
+      "Kumta"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:30",
+    "arrivalTime": "16:30",
+    "duration": "5h",
+    "distanceKm": 230,
+    "daysRunning": "Daily",
+    "price": 380
+  },
+  {
+    "id": "pdf-48",
+    "from": "Mangaluru",
+    "to": "Gudlupet",
+    "via": [
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:10",
+    "arrivalTime": "12:40",
+    "duration": "4h 30m",
+    "distanceKm": 180,
+    "daysRunning": "Daily",
+    "price": 280
+  },
+  {
+    "id": "pdf-49",
+    "from": "Puttur",
+    "to": "Hubbali",
+    "via": [
+      "Kumta",
+      "Sirsi"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "07:45",
+    "arrivalTime": "15:45",
+    "duration": "8h",
+    "distanceKm": 380,
+    "daysRunning": "Daily",
+    "price": 550
+  },
+  {
+    "id": "pdf-50",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "06:40",
+    "arrivalTime": "08:10",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-51",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "07:15",
+    "arrivalTime": "08:45",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-52",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:00",
+    "arrivalTime": "09:30",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-53",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:15",
+    "arrivalTime": "13:45",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-54",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:10",
+    "arrivalTime": "14:40",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-55",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "16:45",
+    "arrivalTime": "18:15",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-56",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:15",
+    "arrivalTime": "10:45",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-57",
+    "from": "Puttur",
+    "to": "Kasaragod",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:10",
+    "arrivalTime": "12:40",
+    "duration": "1h 30m",
+    "distanceKm": 55,
+    "daysRunning": "Daily",
+    "price": 65
+  },
+  {
+    "id": "pdf-58",
+    "from": "Mangaluru",
+    "to": "KGF",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "18:30",
+    "arrivalTime": "03:00",
+    "duration": "8h 30m",
+    "distanceKm": 350,
+    "daysRunning": "Daily",
+    "price": 600
+  },
+  {
+    "id": "pdf-59",
+    "from": "Dharmastala",
+    "to": "Kollegala",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:30",
+    "arrivalTime": "13:30",
+    "duration": "5h",
+    "distanceKm": 200,
+    "daysRunning": "Daily",
+    "price": 300
+  },
+  {
+    "id": "pdf-60",
+    "from": "Dharmastala",
+    "to": "Kollegala",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:15",
+    "arrivalTime": "14:15",
+    "duration": "5h",
+    "distanceKm": 200,
+    "daysRunning": "Daily",
+    "price": 300
+  },
+  {
+    "id": "pdf-61",
+    "from": "Mysuru",
+    "to": "Kundapura",
+    "via": [
+      "B C Road",
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:30",
+    "arrivalTime": "15:00",
+    "duration": "2h 30m",
+    "distanceKm": 110,
+    "daysRunning": "Daily",
+    "price": 150
+  },
+  {
+    "id": "pdf-62",
+    "from": "Mysuru",
+    "to": "Kundapura",
+    "via": [
+      "B C Road",
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:30",
+    "arrivalTime": "16:00",
+    "duration": "2h 30m",
+    "distanceKm": 110,
+    "daysRunning": "Daily",
+    "price": 150
+  },
+  {
+    "id": "pdf-63",
+    "from": "Mangaluru",
+    "to": "Kutta",
+    "via": [
+      "Madikeri"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:15",
+    "arrivalTime": "17:45",
+    "duration": "3h 30m",
+    "distanceKm": 130,
+    "daysRunning": "Daily",
+    "price": 180
+  },
+  {
+    "id": "pdf-64",
+    "from": "Dharmastala",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:05",
+    "arrivalTime": "10:05",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-65",
+    "from": "Dharmastala",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:45",
+    "arrivalTime": "12:45",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-66",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:15",
+    "arrivalTime": "14:15",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-67",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:00",
+    "arrivalTime": "15:00",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-68",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:00",
+    "arrivalTime": "16:00",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-69",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:25",
+    "arrivalTime": "16:25",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-70",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "15:00",
+    "arrivalTime": "17:00",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-71",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "15:30",
+    "arrivalTime": "17:30",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-72",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "15:50",
+    "arrivalTime": "17:50",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-73",
+    "from": "Mangaluru",
+    "to": "Madikeri",
+    "via": [
+      "Sullya"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "16:10",
+    "arrivalTime": "18:10",
+    "duration": "2h",
+    "distanceKm": 85,
+    "daysRunning": "Daily",
+    "price": 110
+  },
+  {
+    "id": "pdf-74",
+    "from": "B C Road",
+    "to": "Madurai",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:15",
+    "arrivalTime": "00:15",
+    "duration": "11h",
+    "distanceKm": 550,
+    "daysRunning": "Daily",
+    "price": 850
+  },
+  {
+    "id": "pdf-75",
+    "from": "Mangaluru",
+    "to": "Madurai",
+    "via": [
+      "Madikeri",
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "16:15",
+    "arrivalTime": "03:15",
+    "duration": "11h",
+    "distanceKm": 550,
+    "daysRunning": "Daily",
+    "price": 850
+  },
+  {
+    "id": "pdf-76",
+    "from": "Puttur",
+    "to": "Malla",
+    "via": [
+      "Vitla",
+      "Badiyadka"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:15",
+    "arrivalTime": "12:25",
+    "duration": "1h 10m",
+    "distanceKm": 40,
+    "daysRunning": "Daily",
+    "price": 50
+  },
+  {
+    "id": "pdf-77",
+    "from": "Madurai",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "07:15",
+    "arrivalTime": "08:45",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-78",
+    "from": "Madikeri",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:05",
+    "arrivalTime": "09:35",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-79",
+    "from": "Madikeri",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:45",
+    "arrivalTime": "10:15",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-80",
+    "from": "Madikeri",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:10",
+    "arrivalTime": "10:40",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-81",
+    "from": "Bhagamandala",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:30",
+    "arrivalTime": "11:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-82",
+    "from": "Siddapura",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:50",
+    "arrivalTime": "11:20",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-83",
+    "from": "Madikeri",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:15",
+    "arrivalTime": "11:45",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-84",
+    "from": "Madikeri",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:30",
+    "arrivalTime": "12:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-85",
+    "from": "Madurai",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:30",
+    "arrivalTime": "12:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-86",
+    "from": "Virajapete",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:00",
+    "arrivalTime": "12:30",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-87",
+    "from": "Kutta",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:15",
+    "arrivalTime": "12:45",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-88",
+    "from": "Channarayapatna",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:15",
+    "arrivalTime": "14:45",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-89",
+    "from": "Mysuru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:30",
+    "arrivalTime": "16:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-90",
+    "from": "Bengaluru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "15:30",
+    "arrivalTime": "17:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-91",
+    "from": "Bengaluru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "16:30",
+    "arrivalTime": "18:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-92",
+    "from": "Bengaluru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "17:30",
+    "arrivalTime": "19:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-93",
+    "from": "Bengaluru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "18:00",
+    "arrivalTime": "19:30",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-94",
+    "from": "Bengaluru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "18:30",
+    "arrivalTime": "20:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-95",
+    "from": "Mysuru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "19:10",
+    "arrivalTime": "20:40",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-96",
+    "from": "Gudlupet",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "19:30",
+    "arrivalTime": "21:00",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-97",
+    "from": "Nanjanagud",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "20:15",
+    "arrivalTime": "21:45",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-98",
+    "from": "Mysuru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "21:00",
+    "arrivalTime": "22:30",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-99",
+    "from": "Mysuru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "21:45",
+    "arrivalTime": "23:15",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-100",
+    "from": "Bengaluru",
+    "to": "Mangaluru",
+    "via": [
+      "B C Road"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "22:15",
+    "arrivalTime": "23:45",
+    "duration": "1h 30m",
+    "distanceKm": 52,
+    "daysRunning": "Daily",
+    "price": 60
+  },
+  {
+    "id": "pdf-101",
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "05:45",
+    "arrivalTime": "09:45",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-102",
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "06:00",
+    "arrivalTime": "10:00",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-103",
+    "from": "Mangaluru",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "06:15",
+    "arrivalTime": "10:15",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-104",
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "06:30",
+    "arrivalTime": "10:30",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-105",
+    "from": "Mangaluru",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "06:45",
+    "arrivalTime": "10:45",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-106",
+    "from": "Mangaluru",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:15",
+    "arrivalTime": "12:15",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-107",
+    "from": "Kundapura",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "08:45",
+    "arrivalTime": "12:45",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-108",
+    "from": "Udupi",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "09:30",
+    "arrivalTime": "13:30",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-109",
+    "from": "Mangaluru",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "10:00",
+    "arrivalTime": "14:00",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-110",
+    "from": "Udupi",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "11:45",
+    "arrivalTime": "15:45",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-111",
+    "from": "Kundapura",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:30",
+    "arrivalTime": "16:30",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-112",
+    "from": "Bhatkala",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:30",
+    "arrivalTime": "17:30",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-113",
+    "from": "Dharmastala",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "13:45",
+    "arrivalTime": "17:45",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-114",
+    "from": "Gokarna",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:30",
+    "arrivalTime": "18:30",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-115",
+    "from": "Puttur",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "15:20",
+    "arrivalTime": "19:20",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-116",
+    "from": "Mangaluru",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "17:15",
+    "arrivalTime": "21:15",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-117",
+    "from": "Mangaluru",
+    "to": "Mysuru",
+    "via": [
+      "Madikeri",
+      "Kushalanagara"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "21:00",
+    "arrivalTime": "01:00",
+    "duration": "4h",
+    "distanceKm": 160,
+    "daysRunning": "Daily",
+    "price": 210
+  },
+  {
+    "id": "pdf-118",
+    "from": "Mangaluru",
+    "to": "Ooty",
+    "via": [
+      "Mysuru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Rajahamsa",
+    "departureTime": "15:15",
+    "arrivalTime": "21:15",
+    "duration": "6h",
+    "distanceKm": 250,
+    "daysRunning": "Daily",
+    "price": 400
+  },
+  {
+    "id": "pdf-119",
+    "from": "Puttur",
+    "to": "Panaji",
+    "via": [
+      "Mangaluru",
+      "Kumta",
+      "Ankola"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "06:45",
+    "arrivalTime": "15:45",
+    "duration": "9h",
+    "distanceKm": 380,
+    "daysRunning": "Daily",
+    "price": 600
+  },
+  {
+    "id": "pdf-120",
+    "from": "Dharmastala",
+    "to": "Somavarapete",
+    "via": [
+      "Madikeri"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "16:30",
+    "arrivalTime": "19:30",
+    "duration": "3h",
+    "distanceKm": 110,
+    "daysRunning": "Daily",
+    "price": 150
+  },
+  {
+    "id": "pdf-121",
+    "from": "Mangaluru",
+    "to": "Somavarapete",
+    "via": [
+      "Sullya",
+      "Madikeri"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "16:50",
+    "arrivalTime": "19:50",
+    "duration": "3h",
+    "distanceKm": 110,
+    "daysRunning": "Daily",
+    "price": 150
+  },
+  {
+    "id": "pdf-122",
+    "from": "Mysuru",
+    "to": "Udupi",
+    "via": [
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "14:00",
+    "arrivalTime": "16:15",
+    "duration": "2h 15m",
+    "distanceKm": 100,
+    "daysRunning": "Daily",
+    "price": 130
+  },
+  {
+    "id": "pdf-123",
+    "from": "Mysuru",
+    "to": "Udupi",
+    "via": [
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "15:00",
+    "arrivalTime": "17:15",
+    "duration": "2h 15m",
+    "distanceKm": 100,
+    "daysRunning": "Daily",
+    "price": 130
+  },
+  {
+    "id": "pdf-124",
+    "from": "Mysuru",
+    "to": "Udupi",
+    "via": [
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "16:00",
+    "arrivalTime": "18:15",
+    "duration": "2h 15m",
+    "distanceKm": 100,
+    "daysRunning": "Daily",
+    "price": 130
+  },
+  {
+    "id": "pdf-125",
+    "from": "Bengaluru",
+    "to": "Udupi",
+    "via": [
+      "Mangaluru"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "17:00",
+    "arrivalTime": "19:15",
+    "duration": "2h 15m",
+    "distanceKm": 100,
+    "daysRunning": "Daily",
+    "price": 130
+  },
+  {
+    "id": "pdf-126",
+    "from": "Mangaluru",
+    "to": "Virajapete",
+    "via": [
+      "Madikeri"
+    ],
+    "operator": "KSRTC",
+    "serviceType": "Express",
+    "departureTime": "12:30",
+    "arrivalTime": "15:15",
+    "duration": "2h 45m",
+    "distanceKm": 100,
+    "daysRunning": "Daily",
+    "price": 140
+  }
+]
