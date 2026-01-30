@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: "Find latest KSRTC bus timings, routes, and stops for Puttur. The smartest way to travel in Puttur. Powered by Sitexar.",
 };
 
+import { SiteHeader } from "@/components/SiteHeader";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased font-sans bg-background text-foreground`}>
+        <SiteHeader />
         {children}
       </body>
     </html>

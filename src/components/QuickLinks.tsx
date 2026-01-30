@@ -81,7 +81,7 @@ export function QuickLinks() {
                     <h3 className="text-lg font-bold text-slate-900">Help & Info</h3>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <Link href="/helpline" className="flex items-center gap-4 bg-purple-50 p-4 rounded-2xl hover:bg-purple-100 transition-colors border border-purple-100/50">
+                    <Link href="/help/helpline" className="flex items-center gap-4 bg-purple-50 p-4 rounded-2xl hover:bg-purple-100 transition-colors border border-purple-100/50">
                         <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-purple-600 shadow-sm">
                             <Phone className="w-6 h-6" />
                         </div>
@@ -90,7 +90,7 @@ export function QuickLinks() {
                             <div className="text-xs text-purple-600 font-medium">Emergency contacts</div>
                         </div>
                     </Link>
-                    <Link href="/faq" className="flex items-center gap-4 bg-indigo-50 p-4 rounded-2xl hover:bg-indigo-100 transition-colors border border-indigo-100/50">
+                    <Link href="/help/faq" className="flex items-center gap-4 bg-indigo-50 p-4 rounded-2xl hover:bg-indigo-100 transition-colors border border-indigo-100/50">
                         <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-indigo-600 shadow-sm">
                             <HelpCircle className="w-6 h-6" />
                         </div>
