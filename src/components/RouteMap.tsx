@@ -10,12 +10,14 @@ import { Coordinates, getCoordinates } from '@/lib/geo';
 // Phase 2: Restored Interactvity
 // Phase 3: Auto-Fit (Calculated Bounds)
 // Phase 4: Intermediate Stops
+// Phase 6: Simulated Bus Movement
 
 interface RouteMapProps {
     from: Coordinates;
     to: Coordinates;
     destinationName: string;
     viaStops?: string[];
+    progress?: number; // 0 to 1
 }
 
 // Custom Icons
@@ -33,6 +35,28 @@ const OriginIcon = createIcon('border-blue-600', 'lg');
 const DestIcon = createIcon('border-red-600', 'lg');
 const StopIcon = createIcon('border-slate-500', 'sm');
 
+// Bus Icon
+const BusMarkerIcon = L.divIcon({
+    className: 'bg-transparent',
+    html: `
+        <div class="relative w-8 h-8 flex items-center justify-center">
+            <div class="absolute inset-0 bg-blue-500/30 animate-ping rounded-full"></div>
+            <div class="relative z-10 w-6 h-6 bg-slate-900 border-2 border-white rounded-full shadow-md flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3 text-white">
+                    <path d="M8 6v6" />
+                    <path d="M15 6v6" />
+                    <path d="M2 12h19.6" />
+                    <path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.6-8 .5-6-4.2-2.5-8.8-2.5-4.6 0-9.3 3.5-8.8 9.5.4 7.2.5 3.8.9 3.8H18c0 0-2.8 0-2.8-5h-3c0 5 0 5 0 5h3Z" />
+                    <path d="M7 18h10" />
+                    <rect width="20" height="14" x="2" y="3" rx="2" />
+                </svg>
+            </div>
+        </div>
+    `,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16]
+});
+
 function MapController({ from, to, stops }: { from: Coordinates; to: Coordinates; stops: Coordinates[] }) {
     const map = useMap();
 
@@ -46,9 +70,7 @@ function MapController({ from, to, stops }: { from: Coordinates; to: Coordinates
 
         const bounds = L.latLngBounds(points);
 
-        // Responsive Padding (Phase 3 & 6)
-        // Mobile: Map is at top, so we need less bottom padding than before
-        // But we want to ensure points aren't at the very edge
+        // Responsive Padding
         map.fitBounds(bounds, {
             padding: [40, 40],
             animate: true,
@@ -60,36 +82,77 @@ function MapController({ from, to, stops }: { from: Coordinates; to: Coordinates
     return null;
 }
 
-export default function RouteMap({ from, to, destinationName, viaStops = [] }: RouteMapProps) {
-    // Resolve Stop Coordinates (Phase 4)
+// Helper to interpolate position along polyline
+function interpolatePosition(path: [number, number][], progress: number): [number, number] | null {
+    if (progress <= 0) return path[0];
+    if (progress >= 1) return path[path.length - 1];
+
+    // Calculate total length
+    let totalLength = 0;
+    const segments = [];
+    for (let i = 0; i < path.length - 1; i++) {
+        const p1 = L.latLng(path[i]);
+        const p2 = L.latLng(path[i + 1]);
+        const dist = p1.distanceTo(p2);
+        segments.push({ start: path[i], end: path[i + 1], dist });
+        totalLength += dist;
+    }
+
+    const targetDist = totalLength * progress;
+
+    // Find segment
+    let currentDist = 0;
+    for (const segment of segments) {
+        if (currentDist + segment.dist >= targetDist) {
+            // Found segment
+            const segmentProgress = (targetDist - currentDist) / segment.dist;
+
+            // Linear interpolation
+            const lat = segment.start[0] + (segment.end[0] - segment.start[0]) * segmentProgress;
+            const lng = segment.start[1] + (segment.end[1] - segment.start[1]) * segmentProgress;
+            return [lat, lng];
+        }
+        currentDist += segment.dist;
+    }
+
+    return path[path.length - 1];
+}
+
+export default function RouteMap({ from, to, destinationName, viaStops = [], progress = 0 }: RouteMapProps) {
+    // Resolve Stop Coordinates
     const stopCoordinates = useMemo(() => {
         return viaStops
             .map(cityName => ({ name: cityName, coords: getCoordinates(cityName) }))
             .filter(item => item.coords !== null) as { name: string, coords: Coordinates }[];
     }, [viaStops]);
 
-    const routePath = [
+    const routePath = useMemo(() => [
         [from.lat, from.lng],
         ...stopCoordinates.map(s => [s.coords.lat, s.coords.lng]),
         [to.lat, to.lng]
-    ] as L.LatLngExpression[];
+    ] as [number, number][], [from, to, stopCoordinates]);
 
     const pathOptions = { color: '#2563EB', weight: 5, opacity: 0.8, lineCap: 'round' as const };
 
+    // Calculate Bus Position
+    const busPosition = useMemo(() => {
+        if (progress > 0 && progress < 1) {
+            return interpolatePosition(routePath, progress);
+        }
+        return null;
+    }, [routePath, progress]);
+
     return (
         <div className="h-full w-full bg-slate-100 relative z-0">
-            {/* Phase 2: Restored Interactivity settings */}
             <MapContainer
                 center={[from.lat, from.lng]}
                 zoom={10}
                 className="h-full w-full outline-none"
-                scrollWheelZoom={true} // Enabled
-                touchZoom={true}       // Enabled
-                dragging={true}        // Enabled
-                zoomControl={false}     // Custom control or disabled for clean look? User asked for zoomControl: true in prompt Phase 2.
+                scrollWheelZoom={true}
+                touchZoom={true}
+                dragging={true}
+                zoomControl={false}
             >
-                {/* Re-adding zoom control manually if needed, or default top-left */}
-
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                     url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
@@ -117,6 +180,15 @@ export default function RouteMap({ from, to, destinationName, viaStops = [] }: R
                         <span className="font-bold text-xs">{destinationName}</span>
                     </Tooltip>
                 </Marker>
+
+                {/* Moving Bus Marker */}
+                {busPosition && (
+                    <Marker position={busPosition} icon={BusMarkerIcon} zIndexOffset={1000}>
+                        <Tooltip direction="top" offset={[0, -10]} opacity={1} permanent className="bg-slate-900 border-0 px-2 py-1 radius-md">
+                            <span className="font-bold text-xs text-secondary-foreground">Live</span>
+                        </Tooltip>
+                    </Marker>
+                )}
 
                 <Polyline positions={routePath} pathOptions={pathOptions} />
 

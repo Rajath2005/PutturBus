@@ -85,6 +85,21 @@ export function RoutePageClient({ slug }: RoutePageClientProps) {
     const allSorted = [...routeBuses].sort((a, b) => minutesFromTime(a.time) - minutesFromTime(b.time));
     const lastBusTime = allSorted[allSorted.length - 1]?.time;
 
+    // PHASE 6: Simulated Movement
+    // Calculate progress (0 to 1)
+    let busProgress = 0;
+
+    if (nextBus) {
+        // If Departure is in future: Progress = 0
+        // If Departure is in past: Progress = (Now - Dep) / Duration
+        if (nowMinutes >= nextBus.depMin) {
+            const elapsed = nowMinutes - nextBus.depMin;
+            // Physics duration is in minutes
+            const percent = elapsed / travelTime;
+            busProgress = Math.min(Math.max(percent, 0), 1); // Clamp 0-1
+        }
+    }
+
     // Loading State
     if (!isLoaded) return <div className="min-h-screen bg-slate-50" />;
 
@@ -137,7 +152,7 @@ export function RoutePageClient({ slug }: RoutePageClientProps) {
                     to={toCoords}
                     destinationName={destinationName}
                     viaStops={intermediateStops}
-                // PHASE 6 Placeholder: We pass time delta to animate map later
+                    progress={busProgress}
                 />
             </div>
 

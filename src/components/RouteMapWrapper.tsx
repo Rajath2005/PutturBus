@@ -18,6 +18,7 @@ interface RouteMapWrapperProps {
     to: Coordinates;
     destinationName: string;
     viaStops?: string[];
+    progress?: number; // 0 to 1
 }
 
 export function RouteMapWrapper(props: RouteMapWrapperProps) {
