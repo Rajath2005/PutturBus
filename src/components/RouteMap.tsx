@@ -11,6 +11,7 @@ import { Coordinates, getCoordinates } from '@/lib/geo';
 // Phase 3: Auto-Fit (Calculated Bounds)
 // Phase 4: Intermediate Stops
 // Phase 6: Simulated Bus Movement
+// Phase 7: Real Road Geometry
 
 interface RouteMapProps {
     from: Coordinates;
@@ -18,6 +19,7 @@ interface RouteMapProps {
     destinationName: string;
     viaStops?: string[];
     progress?: number; // 0 to 1
+    geometry?: [number, number][]; // OSRM Geometry
 }
 
 // Custom Icons
@@ -57,16 +59,21 @@ const BusMarkerIcon = L.divIcon({
     iconAnchor: [16, 16]
 });
 
-function MapController({ from, to, stops }: { from: Coordinates; to: Coordinates; stops: Coordinates[] }) {
+function MapController({ from, to, stops, geometry }: { from: Coordinates; to: Coordinates; stops: Coordinates[]; geometry?: [number, number][]; }) {
     const map = useMap();
 
     useEffect(() => {
-        // Collect all points
-        const points = [
-            [from.lat, from.lng],
-            ...stops.map(s => [s.lat, s.lng]),
-            [to.lat, to.lng]
-        ] as L.LatLngExpression[];
+        let points: L.LatLngExpression[] = [];
+
+        if (geometry && geometry.length > 0) {
+            points = geometry;
+        } else {
+            points = [
+                [from.lat, from.lng],
+                ...stops.map(s => [s.lat, s.lng]),
+                [to.lat, to.lng]
+            ] as L.LatLngExpression[];
+        }
 
         const bounds = L.latLngBounds(points);
 
@@ -77,7 +84,7 @@ function MapController({ from, to, stops }: { from: Coordinates; to: Coordinates
             duration: 1.5
         });
 
-    }, [map, from, to, stops]);
+    }, [map, from, to, stops, geometry]);
 
     return null;
 }
@@ -86,6 +93,8 @@ function MapController({ from, to, stops }: { from: Coordinates; to: Coordinates
 function interpolatePosition(path: [number, number][], progress: number): [number, number] | null {
     if (progress <= 0) return path[0];
     if (progress >= 1) return path[path.length - 1];
+
+    if (!path || path.length < 2) return null;
 
     // Calculate total length
     let totalLength = 0;
@@ -97,6 +106,9 @@ function interpolatePosition(path: [number, number][], progress: number): [numbe
         segments.push({ start: path[i], end: path[i + 1], dist });
         totalLength += dist;
     }
+
+    // Safety check
+    if (totalLength === 0) return path[0];
 
     const targetDist = totalLength * progress;
 
@@ -118,7 +130,7 @@ function interpolatePosition(path: [number, number][], progress: number): [numbe
     return path[path.length - 1];
 }
 
-export default function RouteMap({ from, to, destinationName, viaStops = [], progress = 0 }: RouteMapProps) {
+export default function RouteMap({ from, to, destinationName, viaStops = [], progress = 0, geometry }: RouteMapProps) {
     // Resolve Stop Coordinates
     const stopCoordinates = useMemo(() => {
         return viaStops
@@ -126,20 +138,31 @@ export default function RouteMap({ from, to, destinationName, viaStops = [], pro
             .filter(item => item.coords !== null) as { name: string, coords: Coordinates }[];
     }, [viaStops]);
 
-    const routePath = useMemo(() => [
-        [from.lat, from.lng],
-        ...stopCoordinates.map(s => [s.coords.lat, s.coords.lng]),
-        [to.lat, to.lng]
-    ] as [number, number][], [from, to, stopCoordinates]);
+    // Construct Route Path
+    // If OSRM geometry is provided, use it. Otherwise fall back to straight lines (waypoints).
+    const routePath = useMemo(() => {
+        if (geometry && geometry.length > 0) return geometry;
+        return [
+            [from.lat, from.lng],
+            ...stopCoordinates.map(s => [s.coords.lat, s.coords.lng]),
+            [to.lat, to.lng]
+        ] as [number, number][];
+    }, [from, to, stopCoordinates, geometry]);
 
-    const pathOptions = { color: '#2563EB', weight: 5, opacity: 0.8, lineCap: 'round' as const };
+    const pathOptions = {
+        color: '#2563EB',
+        weight: 6,
+        opacity: 0.9,
+        lineCap: 'round' as const,
+        dashArray: geometry ? undefined : '10, 10' // Dashed for straight line fallback to imply "appoximate"
+    };
 
     // Calculate Bus Position
     const busPosition = useMemo(() => {
         if (progress > 0 && progress < 1) {
             return interpolatePosition(routePath, progress);
         }
-        return null;
+        return null; // Don't show if not active
     }, [routePath, progress]);
 
     return (
@@ -192,8 +215,9 @@ export default function RouteMap({ from, to, destinationName, viaStops = [], pro
 
                 <Polyline positions={routePath} pathOptions={pathOptions} />
 
-                <MapController from={from} to={to} stops={stopCoordinates.map(s => s.coords)} />
+                <MapController from={from} to={to} stops={stopCoordinates.map(s => s.coords)} geometry={geometry} />
             </MapContainer>
         </div>
     );
 }
+

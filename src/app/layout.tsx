@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: "Find latest KSRTC bus timings, routes, and stops for Puttur. The smartest way to travel in Puttur. Powered by Sitexar.",
 };
 
+import Analytics from "@/components/Analytics";
+import PageViewTracker from "@/components/PageViewTracker";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Footer } from "@/components/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
@@ -22,6 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased font-sans bg-background text-foreground`}>
+        <Analytics />
+        <PageViewTracker />
         <LanguageProvider>
           <OfflineIndicator />
           <SiteHeader />
@@ -29,6 +33,7 @@ export default function RootLayout({
           <Footer />
         </LanguageProvider>
       </body>
+
     </html>
   );
 }

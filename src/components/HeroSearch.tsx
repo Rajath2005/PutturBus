@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from '@/lib/analytics';
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { Search, MapPin, ArrowRight, History, Navigation } from 'lucide-react';
@@ -29,6 +30,7 @@ export function HeroSearch({ onSearch, suggestions }: HeroSearchProps) {
         setQuery(term);
         onSearch(term);
         setIsFocused(false);
+        track("search", { search_term: term });
     };
 
     return (
@@ -48,7 +50,11 @@ export function HeroSearch({ onSearch, suggestions }: HeroSearchProps) {
                     </div>
 
                     <div className="hidden md:flex justify-center gap-4">
-                        <Link href="/directory" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 bg-blue-50 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors">
+                        <Link
+                            href="/directory"
+                            onClick={() => track("map_open", { source: "desktop_header" })}
+                            className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 bg-blue-50 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors"
+                        >
                             <Navigation className="w-4 h-4" />
                             {t('browse_routes')}
                         </Link>
@@ -146,7 +152,11 @@ export function HeroSearch({ onSearch, suggestions }: HeroSearchProps) {
                                         <span className="md:hidden">{t('find_buses_btn')}</span>
                                     </button>
 
-                                    <Link href="/directory" className="flex md:hidden items-center justify-center p-4 bg-slate-100 text-slate-600 rounded-xl hover:bg-slate-200 active:scale-95 transition-all">
+                                    <Link
+                                        href="/directory"
+                                        onClick={() => track("map_open", { source: "mobile_icon" })}
+                                        className="flex md:hidden items-center justify-center p-4 bg-slate-100 text-slate-600 rounded-xl hover:bg-slate-200 active:scale-95 transition-all"
+                                    >
                                         <MapPin className="w-6 h-6" />
                                     </Link>
                                 </div>

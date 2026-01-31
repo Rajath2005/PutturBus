@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from '@/lib/analytics';
 import Link from 'next/link';
 import { ArrowLeft, Clock, MapPin, Bus as BusIcon, ArrowRight, AlertCircle, RefreshCw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -16,6 +17,8 @@ import { getCurrentMinutes, minutesFromTime, timeFromMinutes, format12h } from '
 import { getRoutePhysics } from '@/data/route-physics';
 import { findDestination } from '@/lib/route-matcher';
 import { calculateFrequency } from '@/lib/time-utils';
+import { getRoadRoute } from '@/lib/osrm';
+import { getRouteLocation } from '@/data/locations';
 
 interface RoutePageClientProps {
     slug: string;
@@ -24,20 +27,39 @@ interface RoutePageClientProps {
 export function RoutePageClient({ slug }: RoutePageClientProps) {
     const [nowMinutes, setNowMinutes] = useState(0);
     const [isLoaded, setIsLoaded] = useState(false);
+    const [realStats, setRealStats] = useState<{ distance: number; duration: number } | null>(null);
 
     // PHASE 9: Auto Live Refresh (Every 60s)
+    const destinationName = findDestination(slug) || "";
+
     useEffect(() => {
         setNowMinutes(getCurrentMinutes());
         setIsLoaded(true);
+        track("route_view", { route: slug, destination: destinationName });
 
         const interval = setInterval(() => {
             setNowMinutes(getCurrentMinutes());
         }, 60000);
 
         return () => clearInterval(interval);
-    }, []);
+    }, [slug, destinationName]);
 
-    const destinationName = findDestination(slug);
+    // OSRM Stats Fetching
+    useEffect(() => {
+        async function fetchStats() {
+            if (!destinationName) return;
+            const startLoc = getRouteLocation("puttur");
+            const endLoc = getRouteLocation(destinationName);
+
+            if (startLoc && endLoc) {
+                const route = await getRoadRoute(startLoc, endLoc);
+                if (route) {
+                    setRealStats({ distance: route.distanceKm, duration: route.durationMin });
+                }
+            }
+        }
+        fetchStats();
+    }, [destinationName]);
 
     // Filter Buses for this route
     const routeBuses = destinationName
@@ -52,18 +74,18 @@ export function RoutePageClient({ slug }: RoutePageClientProps) {
             depMin: minutesFromTime(bus.time)
         }))
         // Filter: Show future buses OR buses that left recently (within last 5 mins)
-        // Also handle late night edge case where bus time < now (next day)? 
-        // For simplicity in this phase, we assume same day filtering.
         .filter(bus => bus.depMin >= nowMinutes - 5)
         .sort((a, b) => a.depMin - b.depMin);
 
     // PHASE 5: Next Bus Logic
     const nextBus = upcomingBuses[0];
 
-    // Physics Data
+    // Physics Data (Fallback)
     const physics = getRoutePhysics(destinationName || "");
-    const distanceKm = physics.distanceKm;
-    const travelTime = physics.durationMin;
+
+    // Use Real Stats if available, otherwise physics
+    const distanceKm = realStats ? realStats.distance : physics.distanceKm;
+    const travelTime = realStats ? realStats.duration : physics.durationMin;
 
     // Derived Times
     const nextDepartureMins = nextBus ? nextBus.depMin : 0;
@@ -184,21 +206,26 @@ export function RoutePageClient({ slug }: RoutePageClientProps) {
                         {/* Column 2: ARRIVAL TIME */}
                         <div className="px-2 flex flex-col items-center text-center">
                             <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">Reaches At</div>
+                            {" "}
                             <div className="text-xl font-bold text-slate-900 tracking-tight mb-1">
                                 {nextBus ? arrivalTime : "--:--"}
                             </div>
                             <div className="text-[10px] font-medium text-slate-500">
-                                {nextBus ? `~${Math.floor(travelTime / 60)}h ${travelTime % 60}m risk` : "Duration"}
+                                {realStats
+                                    ? `~${Math.floor(travelTime / 60)}h ${Math.floor(travelTime % 60)}m`
+                                    : `~${Math.floor(travelTime / 60)}h ${travelTime % 60}m risk`}
                             </div>
                         </div>
 
                         {/* Column 3: LAST BUS */}
                         <div className="px-2 flex flex-col items-center text-center">
-                            <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1 text-orange-600/80">Last Bus</div>
+                            <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1 text-orange-600/80">Distance</div>
                             <div className="text-xl font-bold text-slate-900 tracking-tight mb-1">
-                                {format12h(lastBusTime || "00:00")}
+                                ~{Math.round(distanceKm)} km
                             </div>
-                            <div className="text-[10px] font-medium text-slate-400">Ends Today</div>
+                            <div className="text-[10px] font-medium text-slate-400">
+                                {realStats ? "Real Road" : "Estimated"}
+                            </div>
                         </div>
                     </div>
 
@@ -250,3 +277,4 @@ export function RoutePageClient({ slug }: RoutePageClientProps) {
         </main>
     );
 }
+

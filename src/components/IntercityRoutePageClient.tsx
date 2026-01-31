@@ -1,9 +1,10 @@
 "use client";
 
+import { track } from '@/lib/analytics';
 import Link from 'next/link';
 import { ArrowLeft, Clock, MapPin, ArrowRight, Filter, AlertCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect } from 'react';
 import { IntercityBusCard } from '@/components/IntercityBusCard';
 import { RouteMapWrapper } from '@/components/RouteMapWrapper';
 import { getUpcomingIntercityBuses, getAllIntercityBusesSorted } from '@/lib/intercity-engine';
@@ -17,6 +18,10 @@ interface Props {
 export function IntercityRoutePageClient({ slug }: Props) {
     const destinationName = findDestination(slug) || "";
     const allBuses = getAllIntercityBusesSorted(destinationName);
+
+    useEffect(() => {
+        track("route_view", { route: slug, destination: destinationName, type: 'intercity' });
+    }, [slug, destinationName]);
 
     // Derived Data
     const upcomingBuses = getUpcomingIntercityBuses(destinationName);
