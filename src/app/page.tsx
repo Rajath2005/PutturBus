@@ -95,6 +95,11 @@ export default function Home() {
         suggestions={ALL_DESTINATIONS}
       />
 
+      {/* Community Banner (Home Page Only) */}
+      <div className="bg-blue-50/80 border-b border-blue-100 px-4 py-2 text-center text-xs text-blue-800">
+        <span className="font-bold">Community Project Notice:</span> PutturBus is a free, non-profit student initiative. For official bookings visit <a href="https://ksrtc.in" target="_blank" className="underline hover:text-blue-900">ksrtc.in</a>.
+      </div>
+
       <div className="-mt-16 relative z-30 max-w-3xl mx-auto px-4 pb-20">
         <div className="bg-card rounded-3xl shadow-xl border border-border/50 min-h-[60vh] overflow-hidden">
           <div className="bg-slate-50/50 border-b border-slate-100 sticky top-0 z-10">
@@ -119,7 +124,7 @@ export default function Home() {
                   Intercity Engine Active
                 </span>
                 <span className="text-xs font-medium text-slate-500">
-                  Official Schedules
+                  KSRTC Schedules
                 </span>
               </div>
             )}
@@ -163,6 +168,6 @@ export default function Home() {
       <div className="py-8 bg-background">
         <Disclaimer />
       </div>
-    </main>
+    </main >
   );
 }

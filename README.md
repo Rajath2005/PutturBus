@@ -2,7 +2,10 @@
 
 **PutturBus** is a modern, high-performance transit application built for the KSRTC Puttur division. It transforms static bus schedules into a live, interactive, and reliable travel companion.
 
-![PutturBus Banner](https://via.placeholder.com/1200x400?text=PutturBus+Transit+App)
+![PutturBus Banner](public/assets/putturbus-banner.png)
+
+> [!IMPORTANT]
+> **Community Project**: This is a non-commercial student initiative. Not affiliated with KSRTC. [Read Disclaimer](docs/USER_GUIDE.md#legal)
 
 ---
 

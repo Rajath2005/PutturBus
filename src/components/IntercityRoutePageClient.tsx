@@ -112,7 +112,7 @@ export function IntercityRoutePageClient({ slug }: Props) {
                         <Filter className="w-4 h-4 text-blue-600" />
                     </div>
                     <div>
-                        <h3 className="text-sm font-bold text-blue-900">Official Schedules</h3>
+                        <h3 className="text-sm font-bold text-blue-900">Route Schedules</h3>
                         <p className="text-xs text-blue-700">KSRTC & Authorized Private Operators</p>
                     </div>
                 </div>

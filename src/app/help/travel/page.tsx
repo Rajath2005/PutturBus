@@ -49,9 +49,9 @@ export default function TravelInfoPage() {
                                 <Clock className="w-5 h-5 text-slate-600" />
                             </div>
                             <div>
-                                <h3 className="font-bold text-slate-900">Official Schedules</h3>
+                                <h3 className="font-bold text-slate-900">Depot Schedules</h3>
                                 <p className="text-sm text-slate-500 mt-1">
-                                    We digitize the official time tables from the KSRTC depot.
+                                    We digitize the time tables from the KSRTC depot.
                                 </p>
                             </div>
                         </div>

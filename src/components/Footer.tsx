@@ -76,20 +76,31 @@ export function Footer() {
 
                     {/* Column 4: Legal & Trust */}
                     <FooterSection title={t('footer_legal_trust')}>
-                        <div className="space-y-3 text-sm text-slate-600 dark:text-slate-400">
-                            <p>
-                                <strong className="text-slate-900 dark:text-white">{t('footer_not_official')}</strong>
-                                <br />
-                                {t('footer_independent_service')}
-                            </p>
-                            <a
-                                href="https://ksrtc.in"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-600 hover:underline inline-flex items-center gap-1"
-                            >
-                                {t('footer_official_link')} <ExternalLink className="w-3 h-3" />
-                            </a>
+                        <div className="space-y-4 text-sm text-slate-600 dark:text-slate-400">
+                            <div>
+                                <strong className="text-slate-900 dark:text-white block mb-1">Community Transit Project</strong>
+                                <p className="text-xs leading-relaxed text-slate-500 dark:text-slate-500">
+                                    {t('footer_disclaimer_text')}
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-2">
+                                <Link
+                                    href="/legal"
+                                    className="text-slate-900 dark:text-white font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                                >
+                                    Legal & Disclaimer
+                                </Link>
+                                <a
+                                    href="https://ksrtc.in"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-600 hover:underline inline-flex items-center gap-1"
+                                >
+                                    {t('footer_official_link')} <ExternalLink className="w-3 h-3" />
+                                </a>
+                            </div>
+
                             <div className="flex gap-3 text-xs opacity-80 pt-1">
                                 <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded">{t('footer_no_booking')}</span>
                                 <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded">{t('footer_no_ads')}</span>
