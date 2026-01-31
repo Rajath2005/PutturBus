@@ -162,11 +162,6 @@ export default function Home() {
 
       <div className="py-8 bg-background">
         <Disclaimer />
-        <footer className="text-center text-muted-foreground text-sm pb-8">
-          <p className="font-bold text-lg mb-1 text-primary">PutturBus</p>
-          <p>© {new Date().getFullYear()} Unofficial Student Project.</p>
-          <p className="mt-1 font-medium">Powered by Sitexar</p>
-        </footer>
       </div>
     </main>
   );

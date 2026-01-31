@@ -5,14 +5,15 @@ import { MapPin, ArrowRight, Info, HelpCircle, Globe, Map, Phone } from 'lucide-
 import { useLanguage } from '@/context/LanguageContext';
 
 const POPULAR_ROUTES = [
-    { name: 'Mangalore', slug: 'puttur-to-mangalore', time: '1h 30m' },
-    { name: 'Kasaragod', slug: 'puttur-to-kasaragod', time: '1h 45m' },
-    { name: 'Sulya', slug: 'puttur-to-sulya', time: '1h 15m' },
-    { name: 'Udupi', slug: 'puttur-to-udupi', time: '2h 15m' },
-    { name: 'Karwar', slug: 'puttur-to-karwar', time: '5h 00m' },
-    { name: 'Mysore', slug: 'puttur-to-mysore', time: '3h 30m' },
-    { name: 'Bangalore', slug: 'puttur-to-bangalore', time: '7h 00m' },
-    { name: 'Dharmasthala', slug: 'puttur-to-dharmasthala', time: '1h 00m' },
+    { nameKey: 'city_mangalore', slug: 'puttur-to-mangalore', time: '1h 30m' },
+    { nameKey: 'city_kasaragod', slug: 'puttur-to-kasaragod', time: '1h 45m' },
+    { nameKey: 'city_sulya', slug: 'puttur-to-sulya', time: '1h 15m' },
+    { nameKey: 'city_udupi', slug: 'puttur-to-udupi', time: '2h 15m' },
+    { nameKey: 'city_karwar', slug: 'puttur-to-karwar', time: '5h 00m' },
+    { nameKey: 'city_mysore', slug: 'puttur-to-mysore', time: '3h 30m' },
+    { nameKey: 'city_bangalore', slug: 'puttur-to-bangalore', time: '7h 00m' },
+    { nameKey: 'city_dharmasthala', slug: 'puttur-to-dharmasthala', time: '1h 00m' },
+    { nameKey: 'city_uppinangady', slug: 'puttur-to-uppinangady', time: '0h 30m' },
 ];
 
 export function QuickLinks() {
@@ -36,13 +37,14 @@ export function QuickLinks() {
                         >
                             <div className="flex justify-between items-start">
                                 <span className="font-bold text-slate-800 text-lg group-hover:text-blue-600 transition-colors">
-                                    {route.name}
+                                    {/* @ts-ignore - Dynamic key usage */}
+                                    {t(route.nameKey)}
                                 </span>
                                 <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded-full font-bold">
                                     {route.time}
                                 </span>
                             </div>
-                            <p className="text-xs text-slate-400 font-medium">From Puttur KSRTC</p>
+                            <p className="text-xs text-slate-400 font-medium">{t('from_puttur_ksrtc')}</p>
                         </Link>
                     ))}
                 </div>

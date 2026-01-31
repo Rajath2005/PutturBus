@@ -1,4 +1,6 @@
-import { Phone, MapPin, Ambulance, Flame, ShieldAlert, HeartPulse } from "lucide-react";
+"use client";
+
+import { Phone, MapPin, Ambulance, Flame, ShieldAlert, HeartPulse, AlertCircle } from "lucide-react";
 
 export default function EmergencyPage() {
     return (
@@ -25,10 +27,36 @@ export default function EmergencyPage() {
                 <div>
                     <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4">Nearby Hospitals</h2>
                     <div className="space-y-3">
-                        <HospitalCard name="KMC Hospital" location="Mangalore (Referral)" />
-                        <HospitalCard name="Vivekananda Hospital" location="Puttur" />
-                        <HospitalCard name="Government Hospital" location="Puttur City" />
-                        <HospitalCard name="Adarsha Hospital" location="Puttur" />
+                        <HospitalCard
+                            name="Puttur City Hospital"
+                            location="APMC Road"
+                            mapUrl="https://www.google.com/maps/search/?api=1&query=Puttur+City+Hospital+Puttur"
+                        />
+                        <HospitalCard
+                            name="Pragathi Speciality Hospital"
+                            location="Main Road"
+                            mapUrl="https://www.google.com/maps/search/?api=1&query=Pragathi+Speciality+Hospital+Puttur"
+                        />
+                        <HospitalCard
+                            name="Dhanvanthari Hospital"
+                            location="Main Road"
+                            mapUrl="https://www.google.com/maps/search/?api=1&query=Dhanvanthari+Hospital+Puttur"
+                        />
+                        <HospitalCard
+                            name="Mahaveer Medical Centre"
+                            location="Main Road"
+                            mapUrl="https://www.google.com/maps/search/?api=1&query=Mahaveer+Medical+Centre+Puttur"
+                        />
+                        <HospitalCard
+                            name="Government General Hospital"
+                            location="Government Hospital"
+                            mapUrl="https://www.google.com/maps/search/?api=1&query=Government+General+Hospital+Puttur"
+                        />
+                        <HospitalCard
+                            name="Adarsha Hospital"
+                            location="APMC Road"
+                            mapUrl="https://www.google.com/maps/search/?api=1&query=Adarsha+Hospital+Puttur"
+                        />
                     </div>
                 </div>
             </div>
@@ -55,7 +83,7 @@ function EmergencyCard({ name, number, icon, color }: { name: string; number: st
     );
 }
 
-function HospitalCard({ name, location }: { name: string; location: string }) {
+function HospitalCard({ name, location, mapUrl }: { name: string; location: string; mapUrl: string }) {
     return (
         <div className="bg-white p-4 rounded-xl border border-slate-200 flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -70,9 +98,14 @@ function HospitalCard({ name, location }: { name: string; location: string }) {
                     </div>
                 </div>
             </div>
-            <button className="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1.5 rounded-lg hover:bg-slate-200 transition-colors">
+            <a
+                href={mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1.5 rounded-lg hover:bg-slate-200 transition-colors text-center"
+            >
                 View Map
-            </button>
+            </a>
         </div>
     );
 }
@@ -81,11 +114,10 @@ function Banner({ title, subtitle }: { title: string; subtitle: string }) {
     return (
         <div className="bg-white border-b border-slate-200 py-12 px-4 text-center">
             <div className="w-12 h-12 bg-red-50 rounded-full flex items-center justify-center mx-auto mb-4 text-red-600">
-                <AlertCircle className="w-6 h-6" /> // AlertCircle used below, defining here or import
+                <AlertCircle className="w-6 h-6" />
             </div>
             <h1 className="text-3xl font-bold text-slate-900 mb-2">{title}</h1>
             <p className="text-slate-500 max-w-xl mx-auto">{subtitle}</p>
         </div>
     );
 }
-import { AlertCircle } from "lucide-react"; // Import for Banner

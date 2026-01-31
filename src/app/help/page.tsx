@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import { Phone, AlertTriangle, HelpCircle, Compass, ArrowRight, Shield } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function HelpPage() {
+    const { t } = useLanguage();
+
     return (
         <main className="min-h-screen bg-slate-50 pb-20">
             {/* Hero Section */}
@@ -9,17 +14,17 @@ export default function HelpPage() {
                 <div className="max-w-2xl mx-auto space-y-6">
                     <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
                         <Shield className="w-4 h-4" />
-                        Sitexar Community Initiative
+                        {t('help_hero_badge')}
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight">
-                        Help & Information
+                        {t('help_hero_title')}
                     </h1>
                     <p className="text-xl text-slate-500 font-medium">
-                        Community-powered travel help for KSRTC passengers from Puttur.
+                        {t('help_hero_subtitle')}
                     </p>
                     <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800 max-w-lg mx-auto">
-                        <p className="font-semibold">Built by Sitexar (Engineering Students)</p>
-                        <p>To support public transport and social welfare. No booking. No payment. Just guidance.</p>
+                        <p className="font-semibold">{t('help_box_title')}</p>
+                        <p>{t('help_box_text')}</p>
                     </div>
                 </div>
             </header>
@@ -30,29 +35,29 @@ export default function HelpPage() {
                     <HelpCard
                         href="/help/helpline"
                         icon={<Phone className="w-6 h-6 text-green-600" />}
-                        title="Helpline Numbers"
-                        description="Official KSRTC and Bus Stand contact numbers for enquiries."
+                        title={t('card_helpline_title')}
+                        description={t('card_helpline_desc')}
                         color="bg-green-50"
                     />
                     <HelpCard
                         href="/help/emergency"
                         icon={<AlertTriangle className="w-6 h-6 text-red-600" />}
-                        title="Emergency Contacts"
-                        description="Police, Ambulance, and Hospitals near Puttur."
+                        title={t('card_emergency_title')}
+                        description={t('card_emergency_desc')}
                         color="bg-red-50"
                     />
                     <HelpCard
                         href="/help/faq"
                         icon={<HelpCircle className="w-6 h-6 text-purple-600" />}
-                        title="Bus FAQ"
-                        description="Common doubts about tickets, luggage, and bus types."
+                        title={t('card_faq_title')}
+                        description={t('card_faq_desc')}
                         color="bg-purple-50"
                     />
                     <HelpCard
                         href="/help/travel"
                         icon={<Compass className="w-6 h-6 text-blue-600" />}
-                        title="Travel Information"
-                        description="How to use KSRTC services and how PutturBus works."
+                        title={t('card_travel_title')}
+                        description={t('card_travel_desc')}
                         color="bg-blue-50"
                     />
                 </div>

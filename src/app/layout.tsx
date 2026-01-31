@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 import { SiteHeader } from "@/components/SiteHeader";
+import { Footer } from "@/components/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { OfflineIndicator } from "@/components/OfflineIndicator";
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <OfflineIndicator />
           <SiteHeader />
           {children}
+          <Footer />
         </LanguageProvider>
       </body>
     </html>
