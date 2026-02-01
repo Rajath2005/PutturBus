@@ -1,12 +1,24 @@
 import { Bus } from '@/types/bus';
 import { BusCard } from './BusCard';
 import { SearchX } from 'lucide-react';
+import { BusCardSkeleton } from './Skeletons';
 
 interface BusListProps {
     buses: Bus[];
+    isLoading?: boolean;
 }
 
-export function BusList({ buses }: BusListProps) {
+export function BusList({ buses, isLoading = false }: BusListProps) {
+    if (isLoading) {
+        return (
+            <div className="pb-20 space-y-2">
+                <BusCardSkeleton />
+                <BusCardSkeleton />
+                <BusCardSkeleton />
+            </div>
+        );
+    }
+
     if (buses.length === 0) {
         return (
             <div className="flex flex-col items-center justify-center py-20 px-4 text-center">
