@@ -90,7 +90,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-background">
-      <Suspense fallback={<div className="h-[400px] bg-blue-600 animate-pulse" />}>
+      <Suspense fallback={<div className="h-[400px] bg-slate-50 animate-pulse" />}>
         <HeroSearch
           onSearch={setSearchTerm}
           suggestions={ALL_DESTINATIONS}
