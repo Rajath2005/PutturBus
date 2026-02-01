@@ -1,3 +1,4 @@
+/* eslint-disable */
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
@@ -43,7 +44,7 @@ try {
   });
 
   console.log(`Found ${buses.length} bus routes.`);
-  
+
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(buses, null, 2));
   console.log(`Successfully wrote data to ${OUTPUT_FILE}`);
 

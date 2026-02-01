@@ -19,7 +19,7 @@ import { Bus } from '@/types/bus';
 // Data for suggestions
 import localRoutes from '@/data/bus-routes.json';
 import intercityRoutes from '@/data/intercity-buses.json';
-import { getAllDestinations } from '@/lib/route-matcher';
+import { getAllDestinations, findDestination } from '@/lib/route-matcher';
 
 // Combined Destinations for Auto-Suggest
 const ALL_DESTINATIONS = getAllDestinations();
@@ -40,7 +40,7 @@ export default function Home() {
     // Or cleaner: use findDestination here.
 
     // Actually getRoutes takes 'from' and 'to'.
-    const { findDestination } = require('@/lib/route-matcher'); // Lazy import or move to top
+    // const { findDestination } = require('@/lib/route-matcher'); // Removed require
     const canonicalDest = findDestination(searchTerm);
 
     if (!canonicalDest) {
