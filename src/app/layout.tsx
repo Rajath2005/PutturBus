@@ -17,6 +17,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import { OfflineIndicator } from "@/components/OfflineIndicator";
 import { Suspense } from "react";
 import BottomNav from "@/components/BottomNav";
+import { AppLoader } from "@/components/AppLoader";
 
 export default function RootLayout({
   children,
@@ -26,6 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased font-sans bg-background text-foreground`}>
+        {/* Animated App Loader */}
+        <AppLoader />
+
         <Analytics />
         <PageViewTracker />
         <LanguageProvider>
@@ -40,7 +44,6 @@ export default function RootLayout({
           </Suspense>
         </LanguageProvider>
       </body>
-
     </html>
   );
 }
