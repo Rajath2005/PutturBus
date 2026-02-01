@@ -1,0 +1,2 @@
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_GA_ID"
